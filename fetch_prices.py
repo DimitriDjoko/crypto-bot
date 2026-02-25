@@ -159,11 +159,21 @@ def run():
     # Afficher dans le terminal
     display_prices(prices)
 
-    # Récap depuis la DB (pour vérifier que la sauvegarde fonctionne)
+    # Recap depuis la DB
     latest = get_all_latest_prices()
-    logger.info("📦 %d tokens en base de données.", len(latest))
+    logger.info("%d tokens en base de donnees.", len(latest))
 
-    logger.info("✅ Collecte terminée avec succès.")
+    # Lancer l analyse IA si la cle Gemini est configuree
+    import os
+    gemini_key = os.environ.get("GEMINI_API_KEY", "")
+    if gemini_key:
+        logger.info("Lancement de l analyse IA...")
+        from ai_analysis import run_analysis
+        run_analysis()
+    else:
+        logger.info("GEMINI_API_KEY non configuree - analyse IA ignoree.")
+
+    logger.info("Collecte et analyse terminees avec succes.")
 
 
 if __name__ == "__main__":

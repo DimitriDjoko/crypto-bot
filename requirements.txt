@@ -1,18 +1,14 @@
 # ─── Semaine 1 : Data Collection ───────────────────────────────────
-requests>=2.31.0          # Appels API CoinGecko / Binance
+requests>=2.31.0           # Appels API CoinGecko
 
 # ─── Semaine 2 : AI Analysis ────────────────────────────────────────
-# Choisir l'une des deux options :
-# Option A - Gemini (GRATUIT - recommandé pour débuter)
-google-generativeai>=0.5.0
-# Option B - Claude (payant mais meilleur)
-# anthropic>=0.25.0
+google-genai>=1.0.0        # SDK Google Gemini (gratuit jusqu'a 1000 req/jour)
 
 # ─── Semaine 3 : Alerts & Dashboard ────────────────────────────────
-# discord-webhook>=1.3.0    # Alertes Discord
-# streamlit>=1.32.0         # Dashboard
-# plotly>=5.20.0            # Graphiques interactifs
+# discord-webhook>=1.3.0   # Alertes Discord
+# streamlit>=1.32.0        # Dashboard
+# plotly>=5.20.0           # Graphiques
 
 # ─── Utilitaires ────────────────────────────────────────────────────
-python-dotenv>=1.0.0       # Gérer les clés API dans un fichier .env
-schedule>=1.2.1            # Planificateur Python (alternative à GitHub Actions en local)
+python-dotenv>=1.0.0       # Gestion des cles API via .env
+schedule>=1.2.1            # Planificateur local
