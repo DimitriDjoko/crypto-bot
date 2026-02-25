@@ -231,3 +231,38 @@
 2026-02-25 17:58:08,257 [INFO] Analyse terminee. 1 signaux generes.
 2026-02-25 17:58:08,332 [INFO] Alertes email non configurees — ignorees.
 2026-02-25 17:58:08,332 [INFO] Collecte et analyse terminees avec succes.
+2026-02-25 19:16:33,509 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-02-25 19:16:33,509 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-02-25 19:16:33,509 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-02-25 19:16:33,655 [INFO] ✅ 5 tokens récupérés avec succès
+2026-02-25 19:16:33,658 [INFO] 💾 5 prix sauvegardés à 2026-02-25T19:16:33.656286+00:00
+2026-02-25 19:16:33,658 [INFO] 🚨 ALERTE : BTC a bougé de 7.22% en 24h → candidat pour analyse IA
+2026-02-25 19:16:33,658 [INFO] 🚨 ALERTE : ETH a bougé de 11.76% en 24h → candidat pour analyse IA
+2026-02-25 19:16:33,658 [INFO] 🚨 ALERTE : XRP a bougé de 7.76% en 24h → candidat pour analyse IA
+2026-02-25 19:16:33,658 [INFO] 🚨 ALERTE : BNB a bougé de 7.26% en 24h → candidat pour analyse IA
+2026-02-25 19:16:33,658 [INFO] 🚨 ALERTE : SOL a bougé de 13.59% en 24h → candidat pour analyse IA
+2026-02-25 19:16:33,659 [INFO] 5 tokens en base de donnees.
+2026-02-25 19:16:33,659 [INFO] Lancement de l analyse IA...
+2026-02-25 19:16:33,661 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-02-25 19:16:33,662 [INFO] 7.26% sur BINANCECOIN -> analyse (RSI: N/A | Tendance: neutre)
+2026-02-25 19:16:33,662 [INFO] 7.22% sur BITCOIN -> analyse (RSI: N/A | Tendance: neutre)
+2026-02-25 19:16:33,662 [INFO] 11.76% sur ETHEREUM -> analyse (RSI: N/A | Tendance: neutre)
+2026-02-25 19:16:33,663 [INFO] 7.76% sur RIPPLE -> analyse (RSI: N/A | Tendance: neutre)
+2026-02-25 19:16:33,663 [INFO] 13.59% sur SOLANA -> analyse (RSI: N/A | Tendance: neutre)
+2026-02-25 19:16:35,204 [INFO] Appel Gemini unique pour 5 tokens...
+2026-02-25 19:16:35,204 [INFO] AFC is enabled with max remote calls: 10.
+2026-02-25 19:16:37,601 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-02-25 19:16:37,602 [INFO] Contexte marche : Le marché des cryptomonnaies montre une forte dynamique haussière généralisée, avec des gains significatifs sur 24 heures pour tous les actifs analysés, suggérant un sentiment positif et une possible continuation de la tendance.
+2026-02-25 19:16:37,602 [INFO] Signal BINANCECOIN -> HOLD (60%) | BNB affiche une solide performance haussière, mais l'absence de données RSI et MA25 rend une confirmation de tendance difficile pour un signal d'achat clair.
+2026-02-25 19:16:37,602 [INFO] Signal BITCOIN -> HOLD (70%) | Bitcoin suit la tendance haussière générale avec une forte augmentation du prix, mais l'absence de données RSI et MA25 limite la capacité à confirmer une tendance haussière forte et immédiate.
+2026-02-25 19:16:37,602 [INFO] Signal ETHEREUM -> BUY (80%) | Ethereum surperforme le marché avec une hausse significative, et bien que le RSI ne soit pas disponible, la forte progression du prix et le volume suggèrent un momentum haussier fort.
+2026-02-25 19:16:37,602 [INFO] Signal RIPPLE -> HOLD (60%) | XRP montre une bonne performance, mais l'absence de données RSI et MA25 empêche une confirmation technique solide pour un signal d'achat ou de vente immédiat.
+2026-02-25 19:16:37,602 [INFO] Signal SOLANA -> BUY (90%) | Solana mène la hausse avec la plus forte variation sur 24h et un volume conséquent, indiquant un fort intérêt acheteur et un momentum haussier confirmé par la progression du prix.
+2026-02-25 19:16:37,605 [INFO] 📊 Signal sauvegardé : binancecoin → HOLD (confiance: 60%)
+2026-02-25 19:16:37,606 [INFO] 📊 Signal sauvegardé : bitcoin → HOLD (confiance: 70%)
+2026-02-25 19:16:37,607 [INFO] 📊 Signal sauvegardé : ethereum → BUY (confiance: 80%)
+2026-02-25 19:16:37,608 [INFO] 📊 Signal sauvegardé : ripple → HOLD (confiance: 60%)
+2026-02-25 19:16:37,609 [INFO] 📊 Signal sauvegardé : solana → BUY (confiance: 90%)
+2026-02-25 19:16:37,609 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
+2026-02-25 19:16:37,792 [INFO] Alertes email non configurees — ignorees.
+2026-02-25 19:16:37,794 [INFO] Collecte et analyse terminees avec succes.
