@@ -1,0 +1,7 @@
+2026-02-24 23:38:12,936 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-02-24 23:38:12,943 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-02-24 23:38:12,944 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-02-24 23:38:13,479 [INFO] ✅ 5 tokens récupérés avec succès
+2026-02-24 23:38:13,488 [INFO] 💾 5 prix sauvegardés à 2026-02-24T22:38:13.482640+00:00
+2026-02-24 23:38:13,491 [INFO] 📦 5 tokens en base de données.
+2026-02-24 23:38:13,491 [INFO] ✅ Collecte terminée avec succès.

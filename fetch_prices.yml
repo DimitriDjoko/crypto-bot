@@ -1,0 +1,50 @@
+# .github/workflows/fetch_prices.yml
+# GitHub Actions - Alternative GRATUITE à Azure Functions
+# Exécute fetch_prices.py toutes les heures automatiquement
+
+name: 🤖 Crypto Price Fetcher
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # Toutes les heures pile
+  workflow_dispatch:        # Permet de lancer manuellement depuis GitHub
+
+jobs:
+  fetch-prices:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 📥 Checkout du code
+        uses: actions/checkout@v4
+
+      - name: 🐍 Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: 📦 Installer les dépendances
+        run: pip install requests python-dotenv
+
+      - name: 🚀 Exécuter la collecte de prix
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          GMAIL_SENDER: ${{ secrets.GMAIL_SENDER }}
+          GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
+          GMAIL_RECIPIENT: ${{ secrets.GMAIL_RECIPIENT }}
+        run: python fetch_prices.py
+
+      # NOTE : SQLite ne persiste pas entre les runs GitHub Actions
+      # Pour conserver les données historiques, 2 options :
+      # Option A (simple) : commit la DB dans le repo après chaque run
+      # Option B (mieux)  : utiliser Supabase (gratuit) → voir README
+
+      - name: 💾 Sauvegarder la DB dans le repo (Option A simple)
+        run: |
+          git config --global user.name  "crypto-bot"
+          git config --global user.email "bot@github.com"
+          git add crypto_data.db bot.log || true
+          git diff --staged --quiet || git commit -m "🤖 Update prices $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push || true
