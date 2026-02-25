@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 
 # ─── Client Gemini ─────────────────────────────────────────────────
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-MODEL = "gemini-2.0-flash"
+MODEL = "gemini-2.5-flash-lite-preview-06-17"   # 1000 req/jour gratuit
 
 
 def build_prompt(token: str, prices: list[dict]) -> str:
