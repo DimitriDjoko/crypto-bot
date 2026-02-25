@@ -237,6 +237,13 @@ def run_analysis():
 
     logger.info("Analyse terminee. %d signaux generes.", len(signals))
 
+    # Envoyer les alertes email si des signaux forts ont ete detectes
+    try:
+        from alerts import check_and_alert
+        check_and_alert()
+    except Exception as e:
+        logger.error("Erreur lors de l envoi des alertes : %s", e)
+
 
 if __name__ == "__main__":
     import sys
