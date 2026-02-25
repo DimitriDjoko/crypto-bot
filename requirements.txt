@@ -1,14 +1,7 @@
-# ─── Semaine 1 : Data Collection ───────────────────────────────────
-requests>=2.31.0           # Appels API CoinGecko
-
-# ─── Semaine 2 : AI Analysis ────────────────────────────────────────
-google-genai>=1.0.0        # SDK Google Gemini (gratuit jusqu'a 1000 req/jour)
-
-# ─── Semaine 3 : Alerts & Dashboard ────────────────────────────────
-# discord-webhook>=1.3.0   # Alertes Discord
-# streamlit>=1.32.0        # Dashboard
-# plotly>=5.20.0           # Graphiques
-
-# ─── Utilitaires ────────────────────────────────────────────────────
-python-dotenv>=1.0.0       # Gestion des cles API via .env
-schedule>=1.2.1            # Planificateur local
+requests>=2.31.0
+google-genai>=1.0.0
+streamlit>=1.32.0
+plotly>=5.20.0
+pandas>=2.0.0
+python-dotenv>=1.0.0
+schedule>=1.2.1
