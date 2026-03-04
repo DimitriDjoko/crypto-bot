@@ -4130,3 +4130,38 @@
 2026-03-04 14:01:18,717 [INFO] Analyse terminee : 0 signaux, 1 appel(s) Gemini.
 2026-03-04 14:01:18,825 [INFO] Alertes email non configurees — ignorees.
 2026-03-04 14:01:18,826 [INFO] Collecte et analyse terminees avec succes.
+2026-03-04 15:42:04,521 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-03-04 15:42:04,522 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-03-04 15:42:04,522 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-03-04 15:42:04,777 [INFO] ✅ 5 tokens récupérés avec succès
+2026-03-04 15:42:04,782 [INFO] 💾 5 prix sauvegardés à 2026-03-04T15:42:04.778892+00:00
+2026-03-04 15:42:04,782 [INFO] 🚨 ALERTE : BTC a bougé de 7.63% en 24h → candidat pour analyse IA
+2026-03-04 15:42:04,782 [INFO] 🚨 ALERTE : ETH a bougé de 8.54% en 24h → candidat pour analyse IA
+2026-03-04 15:42:04,782 [INFO] 🚨 ALERTE : BNB a bougé de 4.62% en 24h → candidat pour analyse IA
+2026-03-04 15:42:04,782 [INFO] 🚨 ALERTE : XRP a bougé de 6.80% en 24h → candidat pour analyse IA
+2026-03-04 15:42:04,782 [INFO] 🚨 ALERTE : SOL a bougé de 9.42% en 24h → candidat pour analyse IA
+2026-03-04 15:42:04,783 [INFO] 5 tokens en base de donnees.
+2026-03-04 15:42:04,783 [INFO] Lancement de l analyse IA...
+2026-03-04 15:42:04,786 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-03-04 15:42:04,787 [INFO] 4.62% sur BINANCECOIN -> analyse (RSI: 80.5 | Tendance: haussiere forte)
+2026-03-04 15:42:04,787 [INFO] 7.63% sur BITCOIN -> analyse (RSI: 81.2 | Tendance: haussiere forte)
+2026-03-04 15:42:04,788 [INFO] 8.54% sur ETHEREUM -> analyse (RSI: 77.6 | Tendance: haussiere forte)
+2026-03-04 15:42:04,788 [INFO] 6.80% sur RIPPLE -> analyse (RSI: 76.5 | Tendance: haussiere forte)
+2026-03-04 15:42:04,789 [INFO] 9.42% sur SOLANA -> analyse (RSI: 74.8 | Tendance: haussiere forte)
+2026-03-04 15:42:05,590 [INFO] Appel Gemini unique pour 5 tokens...
+2026-03-04 15:42:05,591 [INFO] AFC is enabled with max remote calls: 10.
+2026-03-04 15:42:07,806 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-03-04 15:42:07,808 [INFO] Contexte marche : Le marché des cryptomonnaies est actuellement dans une phase de forte hausse, avec tous les principaux actifs affichant des gains significatifs et des indicateurs de surachat, suggérant une possible consolidation à court terme.
+2026-03-04 15:42:07,808 [INFO] Signal BINANCECOIN -> HOLD (70%) | Le RSI est en zone de surachat et la tendance est fortement haussière, mais la récente hausse rapide suggère une prudence avant une potentielle correction.
+2026-03-04 15:42:07,808 [INFO] Signal BITCOIN -> HOLD (80%) | Le Bitcoin montre une force haussière impressionnante avec un RSI en surachat, mais une telle surchauffe peut précéder une phase de consolidation ou de légère baisse.
+2026-03-04 15:42:07,808 [INFO] Signal ETHEREUM -> HOLD (75%) | Ethereum suit la tendance haussière générale avec un RSI en surachat, mais la forte volatilité récente invite à la prudence avant de prendre une nouvelle position.
+2026-03-04 15:42:07,808 [INFO] Signal RIPPLE -> HOLD (65%) | Bien que Ripple soit en hausse et que son RSI soit en surachat, sa performance est légèrement moins explosive que celle des autres grands altcoins, justifiant une approche plus conservatrice.
+2026-03-04 15:42:07,808 [INFO] Signal SOLANA -> HOLD (70%) | Solana affiche la plus forte hausse parmi les tokens analysés, mais son RSI en surachat et la tendance haussière forte indiquent qu'une pause ou une correction est probable.
+2026-03-04 15:42:07,812 [INFO] 📊 Signal sauvegardé : binancecoin → HOLD (confiance: 70%)
+2026-03-04 15:42:07,813 [INFO] 📊 Signal sauvegardé : bitcoin → HOLD (confiance: 80%)
+2026-03-04 15:42:07,814 [INFO] 📊 Signal sauvegardé : ethereum → HOLD (confiance: 75%)
+2026-03-04 15:42:07,815 [INFO] 📊 Signal sauvegardé : ripple → HOLD (confiance: 65%)
+2026-03-04 15:42:07,817 [INFO] 📊 Signal sauvegardé : solana → HOLD (confiance: 70%)
+2026-03-04 15:42:07,817 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
+2026-03-04 15:42:07,898 [INFO] Alertes email non configurees — ignorees.
+2026-03-04 15:42:07,900 [INFO] Collecte et analyse terminees avec succes.
