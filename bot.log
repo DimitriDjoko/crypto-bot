@@ -5198,3 +5198,38 @@
 2026-03-06 11:29:45,956 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
 2026-03-06 11:29:46,108 [INFO] Alertes email non configurees — ignorees.
 2026-03-06 11:29:46,109 [INFO] Collecte et analyse terminees avec succes.
+2026-03-06 12:58:18,167 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-03-06 12:58:18,168 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-03-06 12:58:18,168 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-03-06 12:58:18,311 [INFO] ✅ 5 tokens récupérés avec succès
+2026-03-06 12:58:18,315 [INFO] 💾 5 prix sauvegardés à 2026-03-06T12:58:18.313361+00:00
+2026-03-06 12:58:18,315 [INFO] 🚨 ALERTE : BTC a bougé de -4.02% en 24h → candidat pour analyse IA
+2026-03-06 12:58:18,316 [INFO] 🚨 ALERTE : ETH a bougé de -4.12% en 24h → candidat pour analyse IA
+2026-03-06 12:58:18,316 [INFO] 🚨 ALERTE : BNB a bougé de -3.40% en 24h → candidat pour analyse IA
+2026-03-06 12:58:18,316 [INFO] 🚨 ALERTE : XRP a bougé de -3.63% en 24h → candidat pour analyse IA
+2026-03-06 12:58:18,316 [INFO] 🚨 ALERTE : SOL a bougé de -6.14% en 24h → candidat pour analyse IA
+2026-03-06 12:58:18,317 [INFO] 5 tokens en base de donnees.
+2026-03-06 12:58:18,317 [INFO] Lancement de l analyse IA...
+2026-03-06 12:58:18,319 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-03-06 12:58:18,320 [INFO] 3.40% sur BINANCECOIN -> analyse (RSI: 27.0 | Tendance: baissiere forte)
+2026-03-06 12:58:18,321 [INFO] 4.02% sur BITCOIN -> analyse (RSI: 37.6 | Tendance: baissiere forte)
+2026-03-06 12:58:18,321 [INFO] 4.12% sur ETHEREUM -> analyse (RSI: 39.7 | Tendance: baissiere forte)
+2026-03-06 12:58:18,322 [INFO] 3.63% sur RIPPLE -> analyse (RSI: 38.5 | Tendance: baissiere forte)
+2026-03-06 12:58:18,323 [INFO] 6.14% sur SOLANA -> analyse (RSI: 32.5 | Tendance: baissiere forte)
+2026-03-06 12:58:19,230 [INFO] Appel Gemini unique pour 5 tokens...
+2026-03-06 12:58:19,231 [INFO] AFC is enabled with max remote calls: 10.
+2026-03-06 12:58:21,668 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-03-06 12:58:21,669 [INFO] Contexte marche : Le marché des cryptomonnaies montre une tendance baissière généralisée sur les 24 dernières heures, avec des baisses significatives sur la plupart des actifs analysés, malgré un RSI qui indique une potentielle survente sur Binance Coin.
+2026-03-06 12:58:21,670 [INFO] Signal BINANCECOIN -> BUY (70%) | Le RSI est en zone de survente (27.0) et le prix est inférieur aux moyennes mobiles, suggérant une opportunité d'achat après une correction.
+2026-03-06 12:58:21,670 [INFO] Signal BITCOIN -> HOLD (50%) | Le Bitcoin est en tendance baissière forte avec un RSI neutre (37.6), indiquant une prudence est de mise sans signal clair de retournement.
+2026-03-06 12:58:21,670 [INFO] Signal ETHEREUM -> HOLD (50%) | Ethereum suit une tendance baissière avec un RSI neutre (39.7), suggérant de conserver sa position en attendant une clarification du marché.
+2026-03-06 12:58:21,670 [INFO] Signal RIPPLE -> HOLD (50%) | Ripple présente une tendance baissière et un RSI neutre (38.5), ce qui justifie une approche attentiste avant de prendre une décision.
+2026-03-06 12:58:21,670 [INFO] Signal SOLANA -> HOLD (40%) | Solana affiche la plus forte baisse sur 24h (-6.14%) avec un RSI neutre (32.5) et une tendance baissière, indiquant un risque accru et une nécessité d'attendre un rebond.
+2026-03-06 12:58:21,673 [INFO] 📊 Signal sauvegardé : binancecoin → BUY (confiance: 70%)
+2026-03-06 12:58:21,675 [INFO] 📊 Signal sauvegardé : bitcoin → HOLD (confiance: 50%)
+2026-03-06 12:58:21,676 [INFO] 📊 Signal sauvegardé : ethereum → HOLD (confiance: 50%)
+2026-03-06 12:58:21,677 [INFO] 📊 Signal sauvegardé : ripple → HOLD (confiance: 50%)
+2026-03-06 12:58:21,679 [INFO] 📊 Signal sauvegardé : solana → HOLD (confiance: 40%)
+2026-03-06 12:58:21,679 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
+2026-03-06 12:58:21,817 [INFO] Alertes email non configurees — ignorees.
+2026-03-06 12:58:21,819 [INFO] Collecte et analyse terminees avec succes.
