@@ -8456,3 +8456,32 @@
 2026-03-13 02:07:19,030 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
 2026-03-13 02:07:19,209 [INFO] Alertes email non configurees — ignorees.
 2026-03-13 02:07:19,211 [INFO] Collecte et analyse terminees avec succes.
+2026-03-13 04:44:53,866 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-03-13 04:44:53,866 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-03-13 04:44:53,866 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-03-13 04:44:54,025 [INFO] ✅ 5 tokens récupérés avec succès
+2026-03-13 04:44:54,030 [INFO] 💾 5 prix sauvegardés à 2026-03-13T04:44:54.027386+00:00
+2026-03-13 04:44:54,030 [INFO] 🚨 ALERTE : ETH a bougé de 4.33% en 24h → candidat pour analyse IA
+2026-03-13 04:44:54,030 [INFO] 🚨 ALERTE : SOL a bougé de 5.04% en 24h → candidat pour analyse IA
+2026-03-13 04:44:54,031 [INFO] 5 tokens en base de donnees.
+2026-03-13 04:44:54,031 [INFO] Lancement de l analyse IA...
+2026-03-13 04:44:54,034 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-03-13 04:44:54,035 [INFO] 2.82% sur BINANCECOIN < 3.0% -> HOLD
+2026-03-13 04:44:54,036 [INFO] 2.90% sur BITCOIN < 3.0% -> HOLD
+2026-03-13 04:44:54,036 [INFO] 4.33% sur ETHEREUM -> analyse (RSI: 67.7 | Tendance: haussiere forte)
+2026-03-13 04:44:54,037 [INFO] 2.87% sur RIPPLE < 3.0% -> HOLD
+2026-03-13 04:44:54,037 [INFO] 5.04% sur SOLANA -> analyse (RSI: 66.3 | Tendance: haussiere forte)
+2026-03-13 04:44:54,978 [INFO] Appel Gemini unique pour 2 tokens...
+2026-03-13 04:44:54,978 [INFO] AFC is enabled with max remote calls: 10.
+2026-03-13 04:44:56,010 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-03-13 04:44:56,011 [INFO] Contexte marche : Le marché des cryptomonnaies montre une dynamique haussière généralisée, avec une forte corrélation entre Ethereum et Solana.
+2026-03-13 04:44:56,011 [INFO] Signal ETHEREUM -> HOLD (70%) | Le prix est supérieur aux moyennes mobiles et la tendance est haussière forte, mais le RSI est proche de la zone de surachat, suggérant une pause potentielle.
+2026-03-13 04:44:56,011 [INFO] Signal SOLANA -> HOLD (70%) | Solana suit une tendance haussière forte avec un prix supérieur aux moyennes mobiles, mais le RSI est également proche de la zone de surachat, indiquant une prudence nécessaire.
+2026-03-13 04:44:56,013 [INFO] 📊 Signal sauvegardé : ethereum → HOLD (confiance: 70%)
+2026-03-13 04:44:56,015 [INFO] 📊 Signal sauvegardé : solana → HOLD (confiance: 70%)
+2026-03-13 04:44:56,016 [INFO] 📊 Signal sauvegardé : binancecoin → HOLD (confiance: 50%)
+2026-03-13 04:44:56,017 [INFO] 📊 Signal sauvegardé : bitcoin → HOLD (confiance: 50%)
+2026-03-13 04:44:56,018 [INFO] 📊 Signal sauvegardé : ripple → HOLD (confiance: 50%)
+2026-03-13 04:44:56,018 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
+2026-03-13 04:44:56,154 [INFO] Alertes email non configurees — ignorees.
+2026-03-13 04:44:56,155 [INFO] Collecte et analyse terminees avec succes.
