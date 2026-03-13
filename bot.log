@@ -8576,3 +8576,38 @@
 2026-03-13 07:46:49,664 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
 2026-03-13 07:46:49,765 [INFO] Alertes email non configurees — ignorees.
 2026-03-13 07:46:49,767 [INFO] Collecte et analyse terminees avec succes.
+2026-03-13 08:40:47,884 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-03-13 08:40:47,885 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-03-13 08:40:47,885 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-03-13 08:40:48,068 [INFO] ✅ 5 tokens récupérés avec succès
+2026-03-13 08:40:48,072 [INFO] 💾 5 prix sauvegardés à 2026-03-13T08:40:48.069430+00:00
+2026-03-13 08:40:48,072 [INFO] 🚨 ALERTE : BTC a bougé de 3.11% en 24h → candidat pour analyse IA
+2026-03-13 08:40:48,072 [INFO] 🚨 ALERTE : ETH a bougé de 3.20% en 24h → candidat pour analyse IA
+2026-03-13 08:40:48,072 [INFO] 🚨 ALERTE : BNB a bougé de 3.10% en 24h → candidat pour analyse IA
+2026-03-13 08:40:48,072 [INFO] 🚨 ALERTE : XRP a bougé de 3.64% en 24h → candidat pour analyse IA
+2026-03-13 08:40:48,073 [INFO] 🚨 ALERTE : SOL a bougé de 3.92% en 24h → candidat pour analyse IA
+2026-03-13 08:40:48,074 [INFO] 5 tokens en base de donnees.
+2026-03-13 08:40:48,074 [INFO] Lancement de l analyse IA...
+2026-03-13 08:40:48,076 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-03-13 08:40:48,078 [INFO] 3.10% sur BINANCECOIN -> analyse (RSI: 82.4 | Tendance: haussiere forte)
+2026-03-13 08:40:48,078 [INFO] 3.11% sur BITCOIN -> analyse (RSI: 77.7 | Tendance: haussiere forte)
+2026-03-13 08:40:48,079 [INFO] 3.20% sur ETHEREUM -> analyse (RSI: 69.3 | Tendance: haussiere forte)
+2026-03-13 08:40:48,080 [INFO] 3.64% sur RIPPLE -> analyse (RSI: 75.0 | Tendance: haussiere forte)
+2026-03-13 08:40:48,080 [INFO] 3.92% sur SOLANA -> analyse (RSI: 68.9 | Tendance: haussiere forte)
+2026-03-13 08:40:48,883 [INFO] Appel Gemini unique pour 5 tokens...
+2026-03-13 08:40:48,883 [INFO] AFC is enabled with max remote calls: 10.
+2026-03-13 08:40:50,816 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-03-13 08:40:50,817 [INFO] Contexte marche : Le marché des cryptomonnaies montre une tendance haussière forte et généralisée, avec la plupart des actifs affichant des gains significatifs sur 24 heures, bien que certains indicateurs de surachat commencent à apparaître.
+2026-03-13 08:40:50,817 [INFO] Signal BINANCECOIN -> HOLD (70%) | Le RSI est en zone de surachat, mais la tendance haussière forte et le prix au-dessus des moyennes mobiles suggèrent de maintenir la position actuelle.
+2026-03-13 08:40:50,817 [INFO] Signal BITCOIN -> HOLD (75%) | Bien que le RSI soit en surachat, la tendance haussière dominante et le prix supérieur aux moyennes mobiles indiquent de conserver les positions existantes.
+2026-03-13 08:40:50,817 [INFO] Signal ETHEREUM -> BUY (65%) | Le RSI est neutre et le prix est au-dessus des moyennes mobiles dans une tendance haussière forte, offrant une opportunité d'achat avant une potentielle continuation.
+2026-03-13 08:40:50,817 [INFO] Signal RIPPLE -> HOLD (70%) | Le RSI est en surachat, mais la forte tendance haussière et le prix au-dessus des moyennes mobiles justifient de maintenir les positions actuelles.
+2026-03-13 08:40:50,817 [INFO] Signal SOLANA -> BUY (60%) | Avec un RSI neutre et une tendance haussière confirmée par les moyennes mobiles, Solana présente un potentiel d'achat pour une poursuite de la hausse.
+2026-03-13 08:40:50,822 [INFO] 📊 Signal sauvegardé : binancecoin → HOLD (confiance: 70%)
+2026-03-13 08:40:50,824 [INFO] 📊 Signal sauvegardé : bitcoin → HOLD (confiance: 75%)
+2026-03-13 08:40:50,826 [INFO] 📊 Signal sauvegardé : ethereum → BUY (confiance: 65%)
+2026-03-13 08:40:50,828 [INFO] 📊 Signal sauvegardé : ripple → HOLD (confiance: 70%)
+2026-03-13 08:40:50,830 [INFO] 📊 Signal sauvegardé : solana → BUY (confiance: 60%)
+2026-03-13 08:40:50,830 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
+2026-03-13 08:40:50,938 [INFO] Alertes email non configurees — ignorees.
+2026-03-13 08:40:50,939 [INFO] Collecte et analyse terminees avec succes.
