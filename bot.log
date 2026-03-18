@@ -11092,3 +11092,38 @@
 2026-03-18 20:37:51,190 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
 2026-03-18 20:37:51,426 [INFO] Alertes email non configurees — ignorees.
 2026-03-18 20:37:51,427 [INFO] Collecte et analyse terminees avec succes.
+2026-03-18 21:35:14,897 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-03-18 21:35:14,898 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-03-18 21:35:14,898 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-03-18 21:35:15,024 [INFO] ✅ 5 tokens récupérés avec succès
+2026-03-18 21:35:15,027 [INFO] 💾 5 prix sauvegardés à 2026-03-18T21:35:15.025581+00:00
+2026-03-18 21:35:15,028 [INFO] 🚨 ALERTE : BTC a bougé de -4.48% en 24h → candidat pour analyse IA
+2026-03-18 21:35:15,028 [INFO] 🚨 ALERTE : ETH a bougé de -5.96% en 24h → candidat pour analyse IA
+2026-03-18 21:35:15,028 [INFO] 🚨 ALERTE : XRP a bougé de -4.15% en 24h → candidat pour analyse IA
+2026-03-18 21:35:15,028 [INFO] 🚨 ALERTE : BNB a bougé de -3.23% en 24h → candidat pour analyse IA
+2026-03-18 21:35:15,028 [INFO] 🚨 ALERTE : SOL a bougé de -5.12% en 24h → candidat pour analyse IA
+2026-03-18 21:35:15,030 [INFO] 5 tokens en base de donnees.
+2026-03-18 21:35:15,030 [INFO] Lancement de l analyse IA...
+2026-03-18 21:35:15,032 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-03-18 21:35:15,034 [INFO] 3.23% sur BINANCECOIN -> analyse (RSI: 26.4 | Tendance: baissiere forte)
+2026-03-18 21:35:15,034 [INFO] 4.48% sur BITCOIN -> analyse (RSI: 19.2 | Tendance: baissiere forte)
+2026-03-18 21:35:15,035 [INFO] 5.96% sur ETHEREUM -> analyse (RSI: 18.8 | Tendance: baissiere forte)
+2026-03-18 21:35:15,035 [INFO] 4.15% sur RIPPLE -> analyse (RSI: 30.8 | Tendance: baissiere)
+2026-03-18 21:35:15,037 [INFO] 5.12% sur SOLANA -> analyse (RSI: 20.7 | Tendance: baissiere)
+2026-03-18 21:35:15,719 [INFO] Appel Gemini unique pour 5 tokens...
+2026-03-18 21:35:15,720 [INFO] AFC is enabled with max remote calls: 10.
+2026-03-18 21:35:17,623 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-03-18 21:35:17,624 [INFO] Contexte marche : Le marché des cryptomonnaies est actuellement en forte baisse, avec la majorité des actifs analysés en territoire de survente, suggérant une possible correction ou un rebond imminent.
+2026-03-18 21:35:17,625 [INFO] Signal BINANCECOIN -> BUY (70%) | Le RSI est en zone de survente (26.4) et le prix est inférieur aux moyennes mobiles, indiquant une opportunité d'achat après une correction significative.
+2026-03-18 21:35:17,625 [INFO] Signal BITCOIN -> BUY (80%) | Avec un RSI extrêmement bas (19.2) et une tendance baissière forte, Bitcoin montre des signes de survente majeure, créant un potentiel de rebond important.
+2026-03-18 21:35:17,625 [INFO] Signal ETHEREUM -> BUY (85%) | Ethereum présente le RSI le plus bas (18.8) et une forte baisse, le plaçant dans une situation de survente critique avec une forte probabilité de retournement.
+2026-03-18 21:35:17,625 [INFO] Signal RIPPLE -> HOLD (50%) | Le RSI de Ripple est neutre (30.8) et la tendance est baissière, ce qui suggère d'attendre une confirmation plus claire avant de prendre position.
+2026-03-18 21:35:17,625 [INFO] Signal SOLANA -> BUY (75%) | Solana est en zone de survente (20.7) avec une tendance baissière, offrant une opportunité d'achat à un prix potentiellement attractif après sa récente baisse.
+2026-03-18 21:35:17,627 [INFO] 📊 Signal sauvegardé : binancecoin → BUY (confiance: 70%)
+2026-03-18 21:35:17,628 [INFO] 📊 Signal sauvegardé : bitcoin → BUY (confiance: 80%)
+2026-03-18 21:35:17,629 [INFO] 📊 Signal sauvegardé : ethereum → BUY (confiance: 85%)
+2026-03-18 21:35:17,629 [INFO] 📊 Signal sauvegardé : ripple → HOLD (confiance: 50%)
+2026-03-18 21:35:17,630 [INFO] 📊 Signal sauvegardé : solana → BUY (confiance: 75%)
+2026-03-18 21:35:17,630 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
+2026-03-18 21:35:17,756 [INFO] Alertes email non configurees — ignorees.
+2026-03-18 21:35:17,757 [INFO] Collecte et analyse terminees avec succes.
