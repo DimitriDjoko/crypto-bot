@@ -11022,3 +11022,38 @@
 2026-03-18 17:01:39,778 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
 2026-03-18 17:01:39,906 [INFO] Alertes email non configurees — ignorees.
 2026-03-18 17:01:39,907 [INFO] Collecte et analyse terminees avec succes.
+2026-03-18 19:00:43,780 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-03-18 19:00:43,780 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-03-18 19:00:43,780 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-03-18 19:00:44,004 [INFO] ✅ 5 tokens récupérés avec succès
+2026-03-18 19:00:44,008 [INFO] 💾 5 prix sauvegardés à 2026-03-18T19:00:44.005336+00:00
+2026-03-18 19:00:44,008 [INFO] 🚨 ALERTE : BTC a bougé de -4.84% en 24h → candidat pour analyse IA
+2026-03-18 19:00:44,008 [INFO] 🚨 ALERTE : ETH a bougé de -6.59% en 24h → candidat pour analyse IA
+2026-03-18 19:00:44,008 [INFO] 🚨 ALERTE : XRP a bougé de -5.58% en 24h → candidat pour analyse IA
+2026-03-18 19:00:44,008 [INFO] 🚨 ALERTE : BNB a bougé de -3.83% en 24h → candidat pour analyse IA
+2026-03-18 19:00:44,008 [INFO] 🚨 ALERTE : SOL a bougé de -5.89% en 24h → candidat pour analyse IA
+2026-03-18 19:00:44,010 [INFO] 5 tokens en base de donnees.
+2026-03-18 19:00:44,010 [INFO] Lancement de l analyse IA...
+2026-03-18 19:00:44,013 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-03-18 19:00:44,014 [INFO] 3.83% sur BINANCECOIN -> analyse (RSI: 17.1 | Tendance: baissiere forte)
+2026-03-18 19:00:44,015 [INFO] 4.84% sur BITCOIN -> analyse (RSI: 13.8 | Tendance: baissiere forte)
+2026-03-18 19:00:44,016 [INFO] 6.59% sur ETHEREUM -> analyse (RSI: 10.5 | Tendance: baissiere forte)
+2026-03-18 19:00:44,017 [INFO] 5.58% sur RIPPLE -> analyse (RSI: 16.7 | Tendance: baissiere forte)
+2026-03-18 19:00:44,018 [INFO] 5.89% sur SOLANA -> analyse (RSI: 14.3 | Tendance: baissiere forte)
+2026-03-18 19:00:44,834 [INFO] Appel Gemini unique pour 5 tokens...
+2026-03-18 19:00:44,835 [INFO] AFC is enabled with max remote calls: 10.
+2026-03-18 19:00:46,864 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-03-18 19:00:46,866 [INFO] Contexte marche : Le marché des cryptomonnaies est actuellement en forte correction baissière, avec tous les actifs analysés affichant des baisses significatives et des indicateurs RSI en zone de survente extrême.
+2026-03-18 19:00:46,866 [INFO] Signal BINANCECOIN -> BUY (70%) | Le RSI est en survente extrême (17.1) et le prix est bien en dessous des moyennes mobiles, suggérant un potentiel rebond après une forte baisse.
+2026-03-18 19:00:46,866 [INFO] Signal BITCOIN -> BUY (80%) | Avec un RSI en survente critique (13.8) et une chute importante, Bitcoin présente une opportunité d'achat tactique en anticipation d'un retournement.
+2026-03-18 19:00:46,866 [INFO] Signal ETHEREUM -> BUY (75%) | L'Ethereum est dans une zone de survente très prononcée (RSI 10.5) et sa forte baisse récente indique une possible opportunité d'achat à court terme.
+2026-03-18 19:00:46,866 [INFO] Signal RIPPLE -> BUY (65%) | Le RSI de Ripple est en survente (16.7) et le prix a chuté, ce qui pourrait signaler une opportunité d'achat si la tendance baissière s'essouffle.
+2026-03-18 19:00:46,866 [INFO] Signal SOLANA -> BUY (70%) | Solana affiche un RSI en survente (14.3) et une baisse significative, créant une opportunité d'achat pour un potentiel rebond technique.
+2026-03-18 19:00:46,868 [INFO] 📊 Signal sauvegardé : binancecoin → BUY (confiance: 70%)
+2026-03-18 19:00:46,869 [INFO] 📊 Signal sauvegardé : bitcoin → BUY (confiance: 80%)
+2026-03-18 19:00:46,871 [INFO] 📊 Signal sauvegardé : ethereum → BUY (confiance: 75%)
+2026-03-18 19:00:46,872 [INFO] 📊 Signal sauvegardé : ripple → BUY (confiance: 65%)
+2026-03-18 19:00:46,873 [INFO] 📊 Signal sauvegardé : solana → BUY (confiance: 70%)
+2026-03-18 19:00:46,873 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
+2026-03-18 19:00:47,000 [INFO] Alertes email non configurees — ignorees.
+2026-03-18 19:00:47,002 [INFO] Collecte et analyse terminees avec succes.
