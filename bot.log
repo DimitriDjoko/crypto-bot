@@ -13483,3 +13483,36 @@
 2026-03-23 19:50:28,375 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
 2026-03-23 19:50:28,544 [INFO] Alertes email non configurees — ignorees.
 2026-03-23 19:50:28,546 [INFO] Collecte et analyse terminees avec succes.
+2026-03-23 20:38:28,961 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-03-23 20:38:28,962 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-03-23 20:38:28,962 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-03-23 20:38:29,141 [INFO] ✅ 5 tokens récupérés avec succès
+2026-03-23 20:38:29,144 [INFO] 💾 5 prix sauvegardés à 2026-03-23T20:38:29.142359+00:00
+2026-03-23 20:38:29,145 [INFO] 🚨 ALERTE : BTC a bougé de 3.93% en 24h → candidat pour analyse IA
+2026-03-23 20:38:29,145 [INFO] 🚨 ALERTE : ETH a bougé de 4.95% en 24h → candidat pour analyse IA
+2026-03-23 20:38:29,145 [INFO] 🚨 ALERTE : XRP a bougé de 3.49% en 24h → candidat pour analyse IA
+2026-03-23 20:38:29,145 [INFO] 🚨 ALERTE : SOL a bougé de 5.52% en 24h → candidat pour analyse IA
+2026-03-23 20:38:29,146 [INFO] 5 tokens en base de donnees.
+2026-03-23 20:38:29,146 [INFO] Lancement de l analyse IA...
+2026-03-23 20:38:29,149 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-03-23 20:38:29,151 [INFO] 1.65% sur BINANCECOIN < 3.0% -> HOLD
+2026-03-23 20:38:29,152 [INFO] 3.93% sur BITCOIN -> analyse (RSI: 68.3 | Tendance: haussiere forte)
+2026-03-23 20:38:29,152 [INFO] 4.95% sur ETHEREUM -> analyse (RSI: 67.3 | Tendance: haussiere forte)
+2026-03-23 20:38:29,153 [INFO] 3.49% sur RIPPLE -> analyse (RSI: 68.8 | Tendance: haussiere forte)
+2026-03-23 20:38:29,155 [INFO] 5.52% sur SOLANA -> analyse (RSI: 73.0 | Tendance: haussiere forte)
+2026-03-23 20:38:29,986 [INFO] Appel Gemini unique pour 4 tokens...
+2026-03-23 20:38:29,986 [INFO] AFC is enabled with max remote calls: 10.
+2026-03-23 20:38:31,525 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-03-23 20:38:31,526 [INFO] Contexte marche : Le marché des cryptomonnaies montre une tendance haussière généralisée, avec la plupart des actifs affichant des gains significatifs sur 24 heures et des moyennes mobiles confirmant une dynamique positive, bien que Solana montre des signes de surachat.
+2026-03-23 20:38:31,526 [INFO] Signal BITCOIN -> HOLD (70%) | Bitcoin est dans une forte tendance haussière avec un RSI neutre, indiquant une poursuite potentielle mais sans urgence d'achat immédiat.
+2026-03-23 20:38:31,526 [INFO] Signal ETHEREUM -> HOLD (70%) | Ethereum suit la tendance haussière de Bitcoin avec un RSI neutre, suggérant une consolidation ou une poursuite prudente de la hausse.
+2026-03-23 20:38:31,526 [INFO] Signal RIPPLE -> HOLD (60%) | Ripple présente une tendance haussière confirmée par les moyennes mobiles et un RSI neutre, mais avec un volume plus faible, ce qui le rend moins prioritaire pour un signal d'achat fort.
+2026-03-23 20:38:31,527 [INFO] Signal SOLANA -> HOLD (80%) | Solana affiche la plus forte hausse et un RSI en zone de surachat, ce qui suggère une prudence et un potentiel de correction avant de considérer un nouvel achat.
+2026-03-23 20:38:31,529 [INFO] 📊 Signal sauvegardé : bitcoin → HOLD (confiance: 70%)
+2026-03-23 20:38:31,530 [INFO] 📊 Signal sauvegardé : ethereum → HOLD (confiance: 70%)
+2026-03-23 20:38:31,531 [INFO] 📊 Signal sauvegardé : ripple → HOLD (confiance: 60%)
+2026-03-23 20:38:31,532 [INFO] 📊 Signal sauvegardé : solana → HOLD (confiance: 80%)
+2026-03-23 20:38:31,533 [INFO] 📊 Signal sauvegardé : binancecoin → HOLD (confiance: 50%)
+2026-03-23 20:38:31,533 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
+2026-03-23 20:38:31,729 [INFO] Alertes email non configurees — ignorees.
+2026-03-23 20:38:31,731 [INFO] Collecte et analyse terminees avec succes.
