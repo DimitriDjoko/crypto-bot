@@ -14469,3 +14469,30 @@
 2026-03-26 05:07:08,663 [INFO] Analyse terminee : 5 signaux, 0 appel(s) Gemini.
 2026-03-26 05:07:08,867 [INFO] Alertes email non configurees — ignorees.
 2026-03-26 05:07:08,867 [INFO] Collecte et analyse terminees avec succes.
+2026-03-26 07:10:19,156 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-03-26 07:10:19,157 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-03-26 07:10:19,157 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-03-26 07:10:19,318 [INFO] ✅ 5 tokens récupérés avec succès
+2026-03-26 07:10:19,322 [INFO] 💾 5 prix sauvegardés à 2026-03-26T07:10:19.319640+00:00
+2026-03-26 07:10:19,323 [INFO] 🚨 ALERTE : SOL a bougé de -3.58% en 24h → candidat pour analyse IA
+2026-03-26 07:10:19,324 [INFO] 5 tokens en base de donnees.
+2026-03-26 07:10:19,325 [INFO] Lancement de l analyse IA...
+2026-03-26 07:10:19,327 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-03-26 07:10:19,329 [INFO] 1.72% sur BINANCECOIN < 3.0% -> HOLD
+2026-03-26 07:10:19,330 [INFO] 1.53% sur BITCOIN < 3.0% -> HOLD
+2026-03-26 07:10:19,331 [INFO] 2.33% sur ETHEREUM < 3.0% -> HOLD
+2026-03-26 07:10:19,331 [INFO] 2.48% sur RIPPLE < 3.0% -> HOLD
+2026-03-26 07:10:19,332 [INFO] 3.58% sur SOLANA -> analyse (RSI: 22.7 | Tendance: baissiere forte)
+2026-03-26 07:10:20,234 [INFO] Appel Gemini unique pour 1 tokens...
+2026-03-26 07:10:20,234 [INFO] AFC is enabled with max remote calls: 10.
+2026-03-26 07:10:21,003 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-03-26 07:10:21,005 [INFO] Contexte marche : Le marché montre une pression vendeuse accrue sur Solana, avec une forte tendance baissière et des indicateurs de survente suggérant une possible correction.
+2026-03-26 07:10:21,005 [INFO] Signal SOLANA -> BUY (70%) | Le RSI est en zone de survente (22.7), indiquant un potentiel rebond après une forte baisse récente. La divergence entre le prix actuel et les moyennes mobiles suggère une opportunité d'achat à court terme.
+2026-03-26 07:10:21,007 [INFO] 📊 Signal sauvegardé : solana → BUY (confiance: 70%)
+2026-03-26 07:10:21,009 [INFO] 📊 Signal sauvegardé : binancecoin → HOLD (confiance: 50%)
+2026-03-26 07:10:21,010 [INFO] 📊 Signal sauvegardé : bitcoin → HOLD (confiance: 50%)
+2026-03-26 07:10:21,011 [INFO] 📊 Signal sauvegardé : ethereum → HOLD (confiance: 50%)
+2026-03-26 07:10:21,012 [INFO] 📊 Signal sauvegardé : ripple → HOLD (confiance: 50%)
+2026-03-26 07:10:21,012 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
+2026-03-26 07:10:21,147 [INFO] Alertes email non configurees — ignorees.
+2026-03-26 07:10:21,148 [INFO] Collecte et analyse terminees avec succes.
