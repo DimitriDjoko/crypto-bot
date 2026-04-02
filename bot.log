@@ -17388,3 +17388,38 @@
 2026-04-02 05:03:29,932 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
 2026-04-02 05:03:29,986 [INFO] Alertes email non configurees — ignorees.
 2026-04-02 05:03:29,988 [INFO] Collecte et analyse terminees avec succes.
+2026-04-02 07:14:07,828 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-04-02 07:14:07,829 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-04-02 07:14:07,829 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-04-02 07:14:07,899 [INFO] ✅ 5 tokens récupérés avec succès
+2026-04-02 07:14:07,903 [INFO] 💾 5 prix sauvegardés à 2026-04-02T07:14:07.900415+00:00
+2026-04-02 07:14:07,903 [INFO] 🚨 ALERTE : BTC a bougé de -3.70% en 24h → candidat pour analyse IA
+2026-04-02 07:14:07,903 [INFO] 🚨 ALERTE : ETH a bougé de -4.83% en 24h → candidat pour analyse IA
+2026-04-02 07:14:07,903 [INFO] 🚨 ALERTE : XRP a bougé de -3.65% en 24h → candidat pour analyse IA
+2026-04-02 07:14:07,903 [INFO] 🚨 ALERTE : BNB a bougé de -4.95% en 24h → candidat pour analyse IA
+2026-04-02 07:14:07,903 [INFO] 🚨 ALERTE : SOL a bougé de -6.44% en 24h → candidat pour analyse IA
+2026-04-02 07:14:07,905 [INFO] 5 tokens en base de donnees.
+2026-04-02 07:14:07,905 [INFO] Lancement de l analyse IA...
+2026-04-02 07:14:07,908 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-04-02 07:14:07,910 [INFO] 4.95% sur BINANCECOIN -> analyse (RSI: 19.9 | Tendance: baissiere forte)
+2026-04-02 07:14:07,911 [INFO] 3.70% sur BITCOIN -> analyse (RSI: 24.7 | Tendance: baissiere forte)
+2026-04-02 07:14:07,912 [INFO] 4.83% sur ETHEREUM -> analyse (RSI: 26.1 | Tendance: baissiere forte)
+2026-04-02 07:14:07,913 [INFO] 3.65% sur RIPPLE -> analyse (RSI: 16.7 | Tendance: baissiere forte)
+2026-04-02 07:14:07,915 [INFO] 6.44% sur SOLANA -> analyse (RSI: 25.1 | Tendance: baissiere forte)
+2026-04-02 07:14:08,785 [INFO] Appel Gemini unique pour 5 tokens...
+2026-04-02 07:14:08,785 [INFO] AFC is enabled with max remote calls: 10.
+2026-04-02 07:14:10,790 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-04-02 07:14:10,792 [INFO] Contexte marche : Le marché des cryptomonnaies montre une tendance baissière forte et généralisée sur les 24 dernières heures, avec tous les actifs analysés en territoire de survente selon le RSI.
+2026-04-02 07:14:10,792 [INFO] Signal BINANCECOIN -> BUY (70%) | Le RSI est en forte survente (19.9) et le prix est inférieur aux moyennes mobiles, suggérant un potentiel rebond après une baisse significative.
+2026-04-02 07:14:10,792 [INFO] Signal BITCOIN -> BUY (75%) | Le RSI est en survente (24.7) et le prix est en baisse marquée, indiquant une opportunité d'achat à court terme avant un possible retournement.
+2026-04-02 07:14:10,792 [INFO] Signal ETHEREUM -> BUY (70%) | Avec un RSI en survente (26.1) et une tendance baissière confirmée par les moyennes mobiles, Ethereum présente un profil d'achat attractif pour un rebond.
+2026-04-02 07:14:10,792 [INFO] Signal RIPPLE -> BUY (80%) | Le RSI est en survente extrême (16.7) et le prix est inférieur aux moyennes mobiles, ce qui rend Ripple particulièrement attractif pour un achat spéculatif sur rebond.
+2026-04-02 07:14:10,792 [INFO] Signal SOLANA -> BUY (65%) | Bien que le RSI soit en survente (25.1) et la tendance baissière, la baisse plus prononcée de Solana par rapport à d'autres actifs pourrait offrir une opportunité d'achat plus risquée mais potentiellement plus rémunératrice.
+2026-04-02 07:14:10,794 [INFO] 📊 Signal sauvegardé : binancecoin → BUY (confiance: 70%)
+2026-04-02 07:14:10,795 [INFO] 📊 Signal sauvegardé : bitcoin → BUY (confiance: 75%)
+2026-04-02 07:14:10,797 [INFO] 📊 Signal sauvegardé : ethereum → BUY (confiance: 70%)
+2026-04-02 07:14:10,798 [INFO] 📊 Signal sauvegardé : ripple → BUY (confiance: 80%)
+2026-04-02 07:14:10,799 [INFO] 📊 Signal sauvegardé : solana → BUY (confiance: 65%)
+2026-04-02 07:14:10,799 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
+2026-04-02 07:14:10,915 [INFO] Alertes email non configurees — ignorees.
+2026-04-02 07:14:10,917 [INFO] Collecte et analyse terminees avec succes.
