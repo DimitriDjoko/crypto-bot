@@ -31651,3 +31651,34 @@
 2026-05-15 17:27:58,987 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
 2026-05-15 17:27:59,041 [INFO] Alertes email non configurees — ignorees.
 2026-05-15 17:27:59,043 [INFO] Collecte et analyse terminees avec succes.
+2026-05-15 19:38:55,290 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-05-15 19:38:55,290 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-05-15 19:38:55,290 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-05-15 19:38:55,511 [INFO] ✅ 5 tokens récupérés avec succès
+2026-05-15 19:38:55,516 [INFO] 💾 5 prix sauvegardés à 2026-05-15T19:38:55.513105+00:00
+2026-05-15 19:38:55,516 [INFO] 🚨 ALERTE : ETH a bougé de -3.17% en 24h → candidat pour analyse IA
+2026-05-15 19:38:55,517 [INFO] 🚨 ALERTE : XRP a bougé de -5.94% en 24h → candidat pour analyse IA
+2026-05-15 19:38:55,517 [INFO] 🚨 ALERTE : SOL a bougé de -3.83% en 24h → candidat pour analyse IA
+2026-05-15 19:38:55,520 [INFO] 5 tokens en base de donnees.
+2026-05-15 19:38:55,520 [INFO] Lancement de l analyse IA...
+2026-05-15 19:38:55,523 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-05-15 19:38:55,527 [INFO] 0.71% sur BINANCECOIN < 3.0% -> HOLD
+2026-05-15 19:38:55,528 [INFO] 2.75% sur BITCOIN < 3.0% -> HOLD
+2026-05-15 19:38:55,529 [INFO] 3.17% sur ETHEREUM -> analyse (RSI: 40.7 | Tendance: baissiere forte)
+2026-05-15 19:38:55,530 [INFO] 5.94% sur RIPPLE -> analyse (RSI: 50.0 | Tendance: haussiere)
+2026-05-15 19:38:55,532 [INFO] 3.83% sur SOLANA -> analyse (RSI: 40.7 | Tendance: baissiere forte)
+2026-05-15 19:38:56,490 [INFO] Appel Gemini unique pour 3 tokens...
+2026-05-15 19:38:56,490 [INFO] AFC is enabled with max remote calls: 10.
+2026-05-15 19:38:58,698 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-05-15 19:38:58,699 [INFO] Contexte marche : Le marché des cryptomonnaies montre une tendance baissière générale sur les 24 dernières heures, avec une pression vendeuse notable sur Ethereum et Solana, tandis que Ripple affiche une tendance haussière plus résiliente malgré une correction récente.
+2026-05-15 19:38:58,699 [INFO] Signal ETHEREUM -> HOLD (60%) | L'Ethereum est dans une tendance baissière forte avec un RSI neutre, suggérant une consolidation avant une éventuelle reprise ou une continuation de la baisse.
+2026-05-15 19:38:58,699 [INFO] Signal RIPPLE -> HOLD (70%) | Bien que Ripple ait une tendance haussière confirmée par les moyennes mobiles, la récente baisse de 5.94% et le RSI à 50.0 indiquent une période de correction qui nécessite une observation avant un nouvel achat.
+2026-05-15 19:38:58,699 [INFO] Signal SOLANA -> HOLD (60%) | Solana suit une tendance baissière forte avec un RSI neutre, similaire à Ethereum, indiquant une prudence nécessaire et une attente de confirmation de tendance avant de prendre position.
+2026-05-15 19:38:58,705 [INFO] 📊 Signal sauvegardé : ethereum → HOLD (confiance: 60%)
+2026-05-15 19:38:58,706 [INFO] 📊 Signal sauvegardé : ripple → HOLD (confiance: 70%)
+2026-05-15 19:38:58,707 [INFO] 📊 Signal sauvegardé : solana → HOLD (confiance: 60%)
+2026-05-15 19:38:58,709 [INFO] 📊 Signal sauvegardé : binancecoin → HOLD (confiance: 50%)
+2026-05-15 19:38:58,710 [INFO] 📊 Signal sauvegardé : bitcoin → HOLD (confiance: 50%)
+2026-05-15 19:38:58,710 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
+2026-05-15 19:38:58,842 [INFO] Alertes email non configurees — ignorees.
+2026-05-15 19:38:58,843 [INFO] Collecte et analyse terminees avec succes.
