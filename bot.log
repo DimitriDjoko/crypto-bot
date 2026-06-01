@@ -35257,3 +35257,32 @@
 2026-06-01 10:21:02,322 [INFO] Analyse terminee : 5 signaux, 0 appel(s) Gemini.
 2026-06-01 10:21:02,458 [INFO] Alertes email non configurees — ignorees.
 2026-06-01 10:21:02,458 [INFO] Collecte et analyse terminees avec succes.
+2026-06-01 16:38:01,443 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-06-01 16:38:01,443 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-06-01 16:38:01,443 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-06-01 16:38:01,617 [INFO] ✅ 5 tokens récupérés avec succès
+2026-06-01 16:38:01,622 [INFO] 💾 5 prix sauvegardés à 2026-06-01T16:38:01.619459+00:00
+2026-06-01 16:38:01,623 [INFO] 🚨 ALERTE : BTC a bougé de -3.24% en 24h → candidat pour analyse IA
+2026-06-01 16:38:01,623 [INFO] 🚨 ALERTE : BNB a bougé de -3.62% en 24h → candidat pour analyse IA
+2026-06-01 16:38:01,627 [INFO] 5 tokens en base de donnees.
+2026-06-01 16:38:01,628 [INFO] Lancement de l analyse IA...
+2026-06-01 16:38:01,632 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-06-01 16:38:01,639 [INFO] 3.62% sur BINANCECOIN -> analyse (RSI: 32.4 | Tendance: haussiere)
+2026-06-01 16:38:01,640 [INFO] 3.24% sur BITCOIN -> analyse (RSI: 17.9 | Tendance: baissiere forte)
+2026-06-01 16:38:01,642 [INFO] 1.51% sur ETHEREUM < 3.0% -> HOLD
+2026-06-01 16:38:01,643 [INFO] 2.90% sur RIPPLE < 3.0% -> HOLD
+2026-06-01 16:38:01,644 [INFO] 2.16% sur SOLANA < 3.0% -> HOLD
+2026-06-01 16:38:02,444 [INFO] Appel Gemini unique pour 2 tokens...
+2026-06-01 16:38:02,444 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-01 16:38:03,569 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-01 16:38:03,571 [INFO] Contexte marche : Le marché des cryptomonnaies montre une tendance baissière générale, avec Bitcoin en forte correction et Binance Coin suivant une dynamique similaire mais moins prononcée.
+2026-06-01 16:38:03,571 [INFO] Signal BINANCECOIN -> HOLD (60%) | Binance Coin est en baisse mais son RSI est neutre, suggérant une pause avant une potentielle reprise ou une continuation de la tendance baissière.
+2026-06-01 16:38:03,571 [INFO] Signal BITCOIN -> BUY (70%) | Bitcoin est en zone de survente marquée par un RSI très bas, indiquant une opportunité d'achat potentiel après une correction significative.
+2026-06-01 16:38:03,573 [INFO] 📊 Signal sauvegardé : binancecoin → HOLD (confiance: 60%)
+2026-06-01 16:38:03,574 [INFO] 📊 Signal sauvegardé : bitcoin → BUY (confiance: 70%)
+2026-06-01 16:38:03,575 [INFO] 📊 Signal sauvegardé : ethereum → HOLD (confiance: 50%)
+2026-06-01 16:38:03,577 [INFO] 📊 Signal sauvegardé : ripple → HOLD (confiance: 50%)
+2026-06-01 16:38:03,578 [INFO] 📊 Signal sauvegardé : solana → HOLD (confiance: 50%)
+2026-06-01 16:38:03,578 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
+2026-06-01 16:38:03,623 [INFO] Alertes email non configurees — ignorees.
+2026-06-01 16:38:03,624 [INFO] Collecte et analyse terminees avec succes.
