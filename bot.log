@@ -35522,3 +35522,38 @@
 2026-06-02 23:45:30,620 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
 2026-06-02 23:45:30,735 [INFO] Alertes email non configurees — ignorees.
 2026-06-02 23:45:30,737 [INFO] Collecte et analyse terminees avec succes.
+2026-06-03 04:10:46,681 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-06-03 04:10:46,682 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-06-03 04:10:46,682 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-06-03 04:10:46,830 [INFO] ✅ 5 tokens récupérés avec succès
+2026-06-03 04:10:46,835 [INFO] 💾 5 prix sauvegardés à 2026-06-03T04:10:46.831441+00:00
+2026-06-03 04:10:46,835 [INFO] 🚨 ALERTE : BTC a bougé de -6.21% en 24h → candidat pour analyse IA
+2026-06-03 04:10:46,835 [INFO] 🚨 ALERTE : ETH a bougé de -7.89% en 24h → candidat pour analyse IA
+2026-06-03 04:10:46,835 [INFO] 🚨 ALERTE : BNB a bougé de -7.61% en 24h → candidat pour analyse IA
+2026-06-03 04:10:46,835 [INFO] 🚨 ALERTE : XRP a bougé de -5.82% en 24h → candidat pour analyse IA
+2026-06-03 04:10:46,835 [INFO] 🚨 ALERTE : SOL a bougé de -8.95% en 24h → candidat pour analyse IA
+2026-06-03 04:10:46,839 [INFO] 5 tokens en base de donnees.
+2026-06-03 04:10:46,839 [INFO] Lancement de l analyse IA...
+2026-06-03 04:10:46,841 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-06-03 04:10:46,845 [INFO] 7.61% sur BINANCECOIN -> analyse (RSI: 15.9 | Tendance: baissiere forte)
+2026-06-03 04:10:46,846 [INFO] 6.21% sur BITCOIN -> analyse (RSI: 12.3 | Tendance: baissiere forte)
+2026-06-03 04:10:46,848 [INFO] 7.89% sur ETHEREUM -> analyse (RSI: 18.9 | Tendance: baissiere forte)
+2026-06-03 04:10:46,849 [INFO] 5.82% sur RIPPLE -> analyse (RSI: 16.7 | Tendance: baissiere forte)
+2026-06-03 04:10:46,850 [INFO] 8.95% sur SOLANA -> analyse (RSI: 18.9 | Tendance: baissiere forte)
+2026-06-03 04:10:47,644 [INFO] Appel Gemini unique pour 5 tokens...
+2026-06-03 04:10:47,644 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-03 04:10:49,884 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-03 04:10:49,885 [INFO] Contexte marche : Le marché des cryptomonnaies est actuellement en forte baisse, avec tous les tokens analysés affichant des baisses significatives sur 24 heures et des indicateurs RSI en zone de survente prononcée, suggérant une pression vendeuse dominante.
+2026-06-03 04:10:49,885 [INFO] Signal BINANCECOIN -> BUY (70%) | Le RSI est en survente extrême (15.9) et le prix a chuté de manière significative, indiquant un potentiel rebond à court terme.
+2026-06-03 04:10:49,885 [INFO] Signal BITCOIN -> BUY (80%) | Le RSI est en survente extrême (12.3) et le Bitcoin, en tant que leader du marché, montre des signes de faiblesse qui pourraient précéder un retournement.
+2026-06-03 04:10:49,885 [INFO] Signal ETHEREUM -> BUY (75%) | Avec un RSI en survente (18.9) et une baisse marquée, Ethereum présente une opportunité d'achat dans cette phase de correction.
+2026-06-03 04:10:49,885 [INFO] Signal RIPPLE -> BUY (65%) | Le RSI est en survente (16.7) et le prix a baissé, suggérant que Ripple pourrait suivre la tendance de rebond des autres altcoins majeurs.
+2026-06-03 04:10:49,885 [INFO] Signal SOLANA -> BUY (70%) | La forte baisse et le RSI en survente (18.9) indiquent que Solana est potentiellement sous-évalué et prêt pour une correction haussière.
+2026-06-03 04:10:49,888 [INFO] 📊 Signal sauvegardé : binancecoin → BUY (confiance: 70%)
+2026-06-03 04:10:49,889 [INFO] 📊 Signal sauvegardé : bitcoin → BUY (confiance: 80%)
+2026-06-03 04:10:49,890 [INFO] 📊 Signal sauvegardé : ethereum → BUY (confiance: 75%)
+2026-06-03 04:10:49,891 [INFO] 📊 Signal sauvegardé : ripple → BUY (confiance: 65%)
+2026-06-03 04:10:49,892 [INFO] 📊 Signal sauvegardé : solana → BUY (confiance: 70%)
+2026-06-03 04:10:49,893 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
+2026-06-03 04:10:50,014 [INFO] Alertes email non configurees — ignorees.
+2026-06-03 04:10:50,015 [INFO] Collecte et analyse terminees avec succes.
