@@ -36088,3 +36088,38 @@
 2026-06-05 15:54:05,754 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
 2026-06-05 15:54:05,861 [INFO] Alertes email non configurees — ignorees.
 2026-06-05 15:54:05,862 [INFO] Collecte et analyse terminees avec succes.
+2026-06-05 17:55:27,688 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-06-05 17:55:27,689 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-06-05 17:55:27,689 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-06-05 17:55:27,777 [INFO] ✅ 5 tokens récupérés avec succès
+2026-06-05 17:55:27,781 [INFO] 💾 5 prix sauvegardés à 2026-06-05T17:55:27.778418+00:00
+2026-06-05 17:55:27,782 [INFO] 🚨 ALERTE : BTC a bougé de -4.27% en 24h → candidat pour analyse IA
+2026-06-05 17:55:27,782 [INFO] 🚨 ALERTE : ETH a bougé de -9.86% en 24h → candidat pour analyse IA
+2026-06-05 17:55:27,782 [INFO] 🚨 ALERTE : BNB a bougé de -4.73% en 24h → candidat pour analyse IA
+2026-06-05 17:55:27,782 [INFO] 🚨 ALERTE : XRP a bougé de -5.27% en 24h → candidat pour analyse IA
+2026-06-05 17:55:27,782 [INFO] 🚨 ALERTE : SOL a bougé de -6.13% en 24h → candidat pour analyse IA
+2026-06-05 17:55:27,785 [INFO] 5 tokens en base de donnees.
+2026-06-05 17:55:27,785 [INFO] Lancement de l analyse IA...
+2026-06-05 17:55:27,788 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-06-05 17:55:27,791 [INFO] 4.73% sur BINANCECOIN -> analyse (RSI: 21.6 | Tendance: baissiere forte)
+2026-06-05 17:55:27,793 [INFO] 4.27% sur BITCOIN -> analyse (RSI: 28.2 | Tendance: baissiere forte)
+2026-06-05 17:55:27,794 [INFO] 9.86% sur ETHEREUM -> analyse (RSI: 17.7 | Tendance: baissiere forte)
+2026-06-05 17:55:27,795 [INFO] 5.27% sur RIPPLE -> analyse (RSI: 29.5 | Tendance: baissiere forte)
+2026-06-05 17:55:27,797 [INFO] 6.13% sur SOLANA -> analyse (RSI: 24.6 | Tendance: baissiere forte)
+2026-06-05 17:55:28,528 [INFO] Appel Gemini unique pour 5 tokens...
+2026-06-05 17:55:28,528 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-05 17:55:30,409 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-05 17:55:30,410 [INFO] Contexte marche : Le marché des cryptomonnaies montre une forte tendance baissière généralisée, avec tous les tokens analysés en territoire de survente selon le RSI, indiquant une pression vendeuse significative.
+2026-06-05 17:55:30,410 [INFO] Signal BINANCECOIN -> BUY (70%) | Le RSI est en forte survente (21.6) et le prix est inférieur aux moyennes mobiles MA7 et MA25, suggérant une opportunité de rebond après une baisse significative.
+2026-06-05 17:55:30,410 [INFO] Signal BITCOIN -> BUY (75%) | Le RSI est en survente (28.2) et le prix a chuté sous ses moyennes mobiles, indiquant un potentiel de retournement à la hausse après une correction marquée.
+2026-06-05 17:55:30,410 [INFO] Signal ETHEREUM -> BUY (80%) | Avec un RSI extrêmement bas (17.7) et une chute importante, Ethereum présente une forte opportunité d'achat en anticipation d'un rebond technique significatif.
+2026-06-05 17:55:30,411 [INFO] Signal RIPPLE -> BUY (65%) | Le RSI est en survente (29.5) et le prix est sous ses moyennes mobiles, ce qui pourrait signaler un point d'entrée pour un achat spéculatif sur un potentiel rebond.
+2026-06-05 17:55:30,411 [INFO] Signal SOLANA -> BUY (70%) | Le RSI est en survente (24.6) et le prix a baissé sous ses moyennes mobiles, créant une opportunité d'achat pour un possible retournement haussier.
+2026-06-05 17:55:30,413 [INFO] 📊 Signal sauvegardé : binancecoin → BUY (confiance: 70%)
+2026-06-05 17:55:30,414 [INFO] 📊 Signal sauvegardé : bitcoin → BUY (confiance: 75%)
+2026-06-05 17:55:30,415 [INFO] 📊 Signal sauvegardé : ethereum → BUY (confiance: 80%)
+2026-06-05 17:55:30,415 [INFO] 📊 Signal sauvegardé : ripple → BUY (confiance: 65%)
+2026-06-05 17:55:30,416 [INFO] 📊 Signal sauvegardé : solana → BUY (confiance: 70%)
+2026-06-05 17:55:30,416 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
+2026-06-05 17:55:30,482 [INFO] Alertes email non configurees — ignorees.
+2026-06-05 17:55:30,483 [INFO] Collecte et analyse terminees avec succes.
