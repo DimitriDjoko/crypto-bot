@@ -36539,3 +36539,32 @@
 2026-06-07 03:59:20,899 [INFO] Analyse terminee : 5 signaux, 0 appel(s) Gemini.
 2026-06-07 03:59:21,018 [INFO] Alertes email non configurees — ignorees.
 2026-06-07 03:59:21,018 [INFO] Collecte et analyse terminees avec succes.
+2026-06-07 07:59:17,759 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-06-07 07:59:17,759 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-06-07 07:59:17,759 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-06-07 07:59:17,989 [INFO] ✅ 5 tokens récupérés avec succès
+2026-06-07 07:59:17,993 [INFO] 💾 5 prix sauvegardés à 2026-06-07T07:59:17.990588+00:00
+2026-06-07 07:59:17,993 [INFO] 🚨 ALERTE : XRP a bougé de 3.81% en 24h → candidat pour analyse IA
+2026-06-07 07:59:17,993 [INFO] 🚨 ALERTE : SOL a bougé de 3.30% en 24h → candidat pour analyse IA
+2026-06-07 07:59:17,996 [INFO] 5 tokens en base de donnees.
+2026-06-07 07:59:17,997 [INFO] Lancement de l analyse IA...
+2026-06-07 07:59:17,999 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-06-07 07:59:18,003 [INFO] 1.80% sur BINANCECOIN < 3.0% -> HOLD
+2026-06-07 07:59:18,005 [INFO] 2.24% sur BITCOIN < 3.0% -> HOLD
+2026-06-07 07:59:18,006 [INFO] 2.41% sur ETHEREUM < 3.0% -> HOLD
+2026-06-07 07:59:18,007 [INFO] 3.81% sur RIPPLE -> analyse (RSI: 61.8 | Tendance: baissiere)
+2026-06-07 07:59:18,009 [INFO] 3.30% sur SOLANA -> analyse (RSI: 57.1 | Tendance: baissiere)
+2026-06-07 07:59:18,780 [INFO] Appel Gemini unique pour 2 tokens...
+2026-06-07 07:59:18,780 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-07 07:59:19,971 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-07 07:59:19,972 [INFO] Contexte marche : Le marché des cryptomonnaies montre une reprise modérée, avec une légère hausse des prix et des volumes, mais les moyennes mobiles suggèrent une prudence accrue.
+2026-06-07 07:59:19,972 [INFO] Signal RIPPLE -> HOLD (60%) | Le RSI est neutre et le prix est légèrement supérieur à ses moyennes mobiles, mais la tendance des moyennes mobiles reste baissière, indiquant une hésitation du marché.
+2026-06-07 07:59:19,972 [INFO] Signal SOLANA -> HOLD (65%) | Le RSI est neutre et le prix a dépassé la MA7, mais la MA25 est encore légèrement au-dessus, et la tendance des moyennes mobiles est baissière, suggérant une consolidation avant une direction claire.
+2026-06-07 07:59:19,974 [INFO] 📊 Signal sauvegardé : ripple → HOLD (confiance: 60%)
+2026-06-07 07:59:19,975 [INFO] 📊 Signal sauvegardé : solana → HOLD (confiance: 65%)
+2026-06-07 07:59:19,976 [INFO] 📊 Signal sauvegardé : binancecoin → HOLD (confiance: 50%)
+2026-06-07 07:59:19,977 [INFO] 📊 Signal sauvegardé : bitcoin → HOLD (confiance: 50%)
+2026-06-07 07:59:19,978 [INFO] 📊 Signal sauvegardé : ethereum → HOLD (confiance: 50%)
+2026-06-07 07:59:19,978 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
+2026-06-07 07:59:20,052 [INFO] Alertes email non configurees — ignorees.
+2026-06-07 07:59:20,053 [INFO] Collecte et analyse terminees avec succes.
