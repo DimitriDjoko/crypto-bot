@@ -36568,3 +36568,38 @@
 2026-06-07 07:59:19,978 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
 2026-06-07 07:59:20,052 [INFO] Alertes email non configurees — ignorees.
 2026-06-07 07:59:20,053 [INFO] Collecte et analyse terminees avec succes.
+2026-06-07 10:34:29,934 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-06-07 10:34:29,934 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-06-07 10:34:29,934 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-06-07 10:34:30,074 [INFO] ✅ 5 tokens récupérés avec succès
+2026-06-07 10:34:30,079 [INFO] 💾 5 prix sauvegardés à 2026-06-07T10:34:30.075593+00:00
+2026-06-07 10:34:30,079 [INFO] 🚨 ALERTE : BTC a bougé de 3.47% en 24h → candidat pour analyse IA
+2026-06-07 10:34:30,079 [INFO] 🚨 ALERTE : ETH a bougé de 5.55% en 24h → candidat pour analyse IA
+2026-06-07 10:34:30,079 [INFO] 🚨 ALERTE : BNB a bougé de 3.47% en 24h → candidat pour analyse IA
+2026-06-07 10:34:30,079 [INFO] 🚨 ALERTE : XRP a bougé de 5.27% en 24h → candidat pour analyse IA
+2026-06-07 10:34:30,079 [INFO] 🚨 ALERTE : SOL a bougé de 4.80% en 24h → candidat pour analyse IA
+2026-06-07 10:34:30,084 [INFO] 5 tokens en base de donnees.
+2026-06-07 10:34:30,084 [INFO] Lancement de l analyse IA...
+2026-06-07 10:34:30,087 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-06-07 10:34:30,091 [INFO] 3.47% sur BINANCECOIN -> analyse (RSI: 67.2 | Tendance: baissiere)
+2026-06-07 10:34:30,092 [INFO] 3.47% sur BITCOIN -> analyse (RSI: 59.2 | Tendance: baissiere)
+2026-06-07 10:34:30,094 [INFO] 5.55% sur ETHEREUM -> analyse (RSI: 55.6 | Tendance: baissiere)
+2026-06-07 10:34:30,095 [INFO] 5.27% sur RIPPLE -> analyse (RSI: 61.5 | Tendance: baissiere)
+2026-06-07 10:34:30,097 [INFO] 4.80% sur SOLANA -> analyse (RSI: 50.2 | Tendance: baissiere)
+2026-06-07 10:34:31,049 [INFO] Appel Gemini unique pour 5 tokens...
+2026-06-07 10:34:31,049 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-07 10:34:32,946 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-07 10:34:32,948 [INFO] Contexte marche : Le marché des cryptomonnaies montre une dynamique haussière généralisée sur les dernières 24 heures, avec une reprise notable après une période de consolidation, bien que les moyennes mobiles suggèrent une tendance baissière à moyen terme.
+2026-06-07 10:34:32,948 [INFO] Signal BINANCECOIN -> HOLD (60%) | Le RSI est neutre et le prix est au-dessus de ses moyennes mobiles, mais la tendance des moyennes mobiles reste baissière, indiquant une prudence nécessaire.
+2026-06-07 10:34:32,948 [INFO] Signal BITCOIN -> HOLD (70%) | Le Bitcoin affiche une hausse significative, mais le RSI reste neutre et les moyennes mobiles indiquent une tendance baissière, suggérant une consolidation avant une potentielle continuation.
+2026-06-07 10:34:32,948 [INFO] Signal ETHEREUM -> BUY (80%) | Ethereum montre une forte dynamique haussière avec un RSI neutre et le prix dépassant la MA7 et la MA25, malgré une tendance baissière des moyennes mobiles, ce qui pourrait signaler un retournement.
+2026-06-07 10:34:32,948 [INFO] Signal RIPPLE -> BUY (75%) | Ripple connaît une hausse notable avec un RSI neutre et le prix au-dessus de ses moyennes mobiles, bien que la tendance des moyennes mobiles soit baissière, ce qui pourrait indiquer un potentiel de continuation.
+2026-06-07 10:34:32,948 [INFO] Signal SOLANA -> HOLD (65%) | Solana présente une hausse solide avec un RSI proche de la neutralité, mais la tendance baissière des moyennes mobiles et le prix juste au-dessus de la MA25 appellent à la prudence.
+2026-06-07 10:34:32,951 [INFO] 📊 Signal sauvegardé : binancecoin → HOLD (confiance: 60%)
+2026-06-07 10:34:32,953 [INFO] 📊 Signal sauvegardé : bitcoin → HOLD (confiance: 70%)
+2026-06-07 10:34:32,954 [INFO] 📊 Signal sauvegardé : ethereum → BUY (confiance: 80%)
+2026-06-07 10:34:32,955 [INFO] 📊 Signal sauvegardé : ripple → BUY (confiance: 75%)
+2026-06-07 10:34:32,956 [INFO] 📊 Signal sauvegardé : solana → HOLD (confiance: 65%)
+2026-06-07 10:34:32,956 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
+2026-06-07 10:34:33,078 [INFO] Alertes email non configurees — ignorees.
+2026-06-07 10:34:33,080 [INFO] Collecte et analyse terminees avec succes.
