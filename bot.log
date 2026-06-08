@@ -36789,3 +36789,38 @@
 2026-06-07 22:04:28,219 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
 2026-06-07 22:04:28,354 [INFO] Alertes email non configurees — ignorees.
 2026-06-07 22:04:28,356 [INFO] Collecte et analyse terminees avec succes.
+2026-06-08 00:08:42,197 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-06-08 00:08:42,198 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-06-08 00:08:42,198 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-06-08 00:08:42,351 [INFO] ✅ 5 tokens récupérés avec succès
+2026-06-08 00:08:42,355 [INFO] 💾 5 prix sauvegardés à 2026-06-08T00:08:42.352593+00:00
+2026-06-08 00:08:42,355 [INFO] 🚨 ALERTE : BTC a bougé de 3.95% en 24h → candidat pour analyse IA
+2026-06-08 00:08:42,355 [INFO] 🚨 ALERTE : ETH a bougé de 7.65% en 24h → candidat pour analyse IA
+2026-06-08 00:08:42,355 [INFO] 🚨 ALERTE : BNB a bougé de 5.15% en 24h → candidat pour analyse IA
+2026-06-08 00:08:42,355 [INFO] 🚨 ALERTE : XRP a bougé de 5.56% en 24h → candidat pour analyse IA
+2026-06-08 00:08:42,356 [INFO] 🚨 ALERTE : SOL a bougé de 6.69% en 24h → candidat pour analyse IA
+2026-06-08 00:08:42,359 [INFO] 5 tokens en base de donnees.
+2026-06-08 00:08:42,359 [INFO] Lancement de l analyse IA...
+2026-06-08 00:08:42,362 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-06-08 00:08:42,366 [INFO] 5.15% sur BINANCECOIN -> analyse (RSI: 78.5 | Tendance: haussiere forte)
+2026-06-08 00:08:42,368 [INFO] 3.95% sur BITCOIN -> analyse (RSI: 75.5 | Tendance: haussiere forte)
+2026-06-08 00:08:42,369 [INFO] 7.65% sur ETHEREUM -> analyse (RSI: 82.6 | Tendance: haussiere forte)
+2026-06-08 00:08:42,370 [INFO] 5.56% sur RIPPLE -> analyse (RSI: 69.0 | Tendance: haussiere forte)
+2026-06-08 00:08:42,372 [INFO] 6.69% sur SOLANA -> analyse (RSI: 75.5 | Tendance: haussiere forte)
+2026-06-08 00:08:43,116 [INFO] Appel Gemini unique pour 5 tokens...
+2026-06-08 00:08:43,117 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-08 00:08:44,983 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-08 00:08:44,984 [INFO] Contexte marche : Le marché des cryptomonnaies montre une tendance haussière généralisée avec la plupart des actifs majeurs en territoire de surachat, indiquant une possible consolidation ou correction à court terme.
+2026-06-08 00:08:44,985 [INFO] Signal BINANCECOIN -> HOLD (60%) | Le RSI est en surachat et le prix est bien au-dessus des moyennes mobiles, suggérant une force haussière mais un risque de correction imminente.
+2026-06-08 00:08:44,985 [INFO] Signal BITCOIN -> HOLD (65%) | Le RSI en surachat et la forte tendance haussière indiquent une dynamique positive, mais le risque de prise de bénéfices est élevé.
+2026-06-08 00:08:44,985 [INFO] Signal ETHEREUM -> HOLD (70%) | Avec le RSI le plus élevé et une forte hausse, Ethereum montre une force significative mais est également le plus susceptible à une correction rapide.
+2026-06-08 00:08:44,985 [INFO] Signal RIPPLE -> HOLD (50%) | Le RSI est neutre, ce qui le rend moins susceptible à une correction immédiate, mais la tendance haussière est moins prononcée que celle des autres grands altcoins.
+2026-06-08 00:08:44,985 [INFO] Signal SOLANA -> HOLD (60%) | Le RSI est en surachat et la tendance est fortement haussière, mais comme pour les autres, une pause ou une légère correction est possible après cette forte hausse.
+2026-06-08 00:08:44,987 [INFO] 📊 Signal sauvegardé : binancecoin → HOLD (confiance: 60%)
+2026-06-08 00:08:44,988 [INFO] 📊 Signal sauvegardé : bitcoin → HOLD (confiance: 65%)
+2026-06-08 00:08:44,989 [INFO] 📊 Signal sauvegardé : ethereum → HOLD (confiance: 70%)
+2026-06-08 00:08:44,990 [INFO] 📊 Signal sauvegardé : ripple → HOLD (confiance: 50%)
+2026-06-08 00:08:44,992 [INFO] 📊 Signal sauvegardé : solana → HOLD (confiance: 60%)
+2026-06-08 00:08:44,992 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
+2026-06-08 00:08:45,090 [INFO] Alertes email non configurees — ignorees.
+2026-06-08 00:08:45,092 [INFO] Collecte et analyse terminees avec succes.
