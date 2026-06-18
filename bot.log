@@ -38611,3 +38611,38 @@
 2026-06-18 12:52:13,483 [INFO] Analyse terminee : 5 signaux, 0 appel(s) Gemini.
 2026-06-18 12:52:13,585 [INFO] Alertes email non configurees — ignorees.
 2026-06-18 12:52:13,585 [INFO] Collecte et analyse terminees avec succes.
+2026-06-18 16:32:46,748 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-06-18 16:32:46,748 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-06-18 16:32:46,748 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-06-18 16:32:46,977 [INFO] ✅ 5 tokens récupérés avec succès
+2026-06-18 16:32:46,993 [INFO] 💾 5 prix sauvegardés à 2026-06-18T16:32:46.978417+00:00
+2026-06-18 16:32:46,993 [INFO] 🚨 ALERTE : BTC a bougé de -5.33% en 24h → candidat pour analyse IA
+2026-06-18 16:32:46,993 [INFO] 🚨 ALERTE : ETH a bougé de -5.20% en 24h → candidat pour analyse IA
+2026-06-18 16:32:46,993 [INFO] 🚨 ALERTE : BNB a bougé de -4.95% en 24h → candidat pour analyse IA
+2026-06-18 16:32:46,993 [INFO] 🚨 ALERTE : XRP a bougé de -6.14% en 24h → candidat pour analyse IA
+2026-06-18 16:32:46,993 [INFO] 🚨 ALERTE : SOL a bougé de -7.44% en 24h → candidat pour analyse IA
+2026-06-18 16:32:46,996 [INFO] 5 tokens en base de donnees.
+2026-06-18 16:32:46,996 [INFO] Lancement de l analyse IA...
+2026-06-18 16:32:46,998 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-06-18 16:32:47,001 [INFO] 4.95% sur BINANCECOIN -> analyse (RSI: 11.4 | Tendance: baissiere forte)
+2026-06-18 16:32:47,003 [INFO] 5.33% sur BITCOIN -> analyse (RSI: 15.9 | Tendance: baissiere forte)
+2026-06-18 16:32:47,004 [INFO] 5.20% sur ETHEREUM -> analyse (RSI: 18.1 | Tendance: baissiere forte)
+2026-06-18 16:32:47,005 [INFO] 6.14% sur RIPPLE -> analyse (RSI: 14.3 | Tendance: baissiere forte)
+2026-06-18 16:32:47,007 [INFO] 7.44% sur SOLANA -> analyse (RSI: 20.7 | Tendance: baissiere forte)
+2026-06-18 16:32:47,658 [INFO] Appel Gemini unique pour 5 tokens...
+2026-06-18 16:32:47,658 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-18 16:32:58,083 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-18 16:32:58,084 [INFO] Contexte marche : Le marché des cryptomonnaies est actuellement en forte baisse, avec tous les actifs analysés affichant des baisses significatives sur 24 heures et des indicateurs de survente prononcée.
+2026-06-18 16:32:58,084 [INFO] Signal BINANCECOIN -> BUY (70%) | Le RSI est en zone de survente extrême (11.4) et le prix a chuté de manière significative, suggérant un potentiel rebond technique.
+2026-06-18 16:32:58,084 [INFO] Signal BITCOIN -> BUY (75%) | Le RSI est en survente profonde (15.9) et le prix a subi une correction importante, indiquant une opportunité d'achat à court terme en attendant un retournement.
+2026-06-18 16:32:58,084 [INFO] Signal ETHEREUM -> BUY (70%) | Avec un RSI en survente (18.1) et une baisse notable, Ethereum présente des conditions favorables pour un achat spéculatif en anticipation d'un rebond.
+2026-06-18 16:32:58,084 [INFO] Signal RIPPLE -> BUY (65%) | Le RSI est en survente (14.3) et le prix a connu une forte baisse, ce qui pourrait signaler une opportunité d'achat avant un éventuel retournement.
+2026-06-18 16:32:58,084 [INFO] Signal SOLANA -> BUY (60%) | Bien que le RSI soit moins extrême (20.7), la forte baisse et le volume élevé suggèrent que Solana pourrait être proche d'un plancher temporaire, offrant une opportunité d'achat.
+2026-06-18 16:32:58,123 [INFO] 📊 Signal sauvegardé : binancecoin → BUY (confiance: 70%)
+2026-06-18 16:32:58,125 [INFO] 📊 Signal sauvegardé : bitcoin → BUY (confiance: 75%)
+2026-06-18 16:32:58,126 [INFO] 📊 Signal sauvegardé : ethereum → BUY (confiance: 70%)
+2026-06-18 16:32:58,127 [INFO] 📊 Signal sauvegardé : ripple → BUY (confiance: 65%)
+2026-06-18 16:32:58,129 [INFO] 📊 Signal sauvegardé : solana → BUY (confiance: 60%)
+2026-06-18 16:32:58,129 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
+2026-06-18 16:32:58,308 [INFO] Alertes email non configurees — ignorees.
+2026-06-18 16:32:58,310 [INFO] Collecte et analyse terminees avec succes.
