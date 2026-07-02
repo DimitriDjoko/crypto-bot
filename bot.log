@@ -41438,3 +41438,28 @@
 2026-07-02 14:01:08,437 [INFO] Analyse terminee : 0 signaux, 1 appel(s) Gemini.
 2026-07-02 14:01:08,576 [INFO] Alertes email non configurees — ignorees.
 2026-07-02 14:01:08,578 [INFO] Collecte et analyse terminees avec succes.
+2026-07-02 16:48:49,372 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-07-02 16:48:49,372 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-07-02 16:48:49,372 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-07-02 16:48:49,491 [INFO] ✅ 5 tokens récupérés avec succès
+2026-07-02 16:48:49,496 [INFO] 💾 5 prix sauvegardés à 2026-07-02T16:48:49.492432+00:00
+2026-07-02 16:48:49,496 [INFO] 🚨 ALERTE : ETH a bougé de 4.94% en 24h → candidat pour analyse IA
+2026-07-02 16:48:49,496 [INFO] 🚨 ALERTE : XRP a bougé de 3.01% en 24h → candidat pour analyse IA
+2026-07-02 16:48:49,496 [INFO] 🚨 ALERTE : SOL a bougé de 3.50% en 24h → candidat pour analyse IA
+2026-07-02 16:48:49,500 [INFO] 5 tokens en base de donnees.
+2026-07-02 16:48:49,500 [INFO] Lancement de l analyse IA...
+2026-07-02 16:48:49,502 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-07-02 16:48:49,507 [INFO] 1.74% sur BINANCECOIN < 3.0% -> HOLD
+2026-07-02 16:48:49,509 [INFO] 2.54% sur BITCOIN < 3.0% -> HOLD
+2026-07-02 16:48:49,511 [INFO] 4.94% sur ETHEREUM -> analyse (RSI: 71.0 | Tendance: haussiere forte)
+2026-07-02 16:48:49,512 [INFO] 3.01% sur RIPPLE -> analyse (RSI: 67.4 | Tendance: haussiere forte)
+2026-07-02 16:48:49,514 [INFO] 3.50% sur SOLANA -> analyse (RSI: 70.5 | Tendance: haussiere forte)
+2026-07-02 16:48:50,705 [INFO] Appel Gemini unique pour 3 tokens...
+2026-07-02 16:48:50,705 [INFO] AFC is enabled with max remote calls: 10.
+2026-07-02 16:49:02,130 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-07-02 16:49:02,131 [ERROR] Erreur appel Gemini : 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-07-02 16:49:02,134 [INFO] 📊 Signal sauvegardé : binancecoin → HOLD (confiance: 50%)
+2026-07-02 16:49:02,135 [INFO] 📊 Signal sauvegardé : bitcoin → HOLD (confiance: 50%)
+2026-07-02 16:49:02,136 [INFO] Analyse terminee : 2 signaux, 1 appel(s) Gemini.
+2026-07-02 16:49:02,353 [INFO] Alertes email non configurees — ignorees.
+2026-07-02 16:49:02,354 [INFO] Collecte et analyse terminees avec succes.
