@@ -49769,3 +49769,24 @@
 2026-08-06 12:55:52,134 [INFO] Analyse terminee : 5 signaux, 0 appel(s) Gemini.
 2026-08-06 12:55:52,243 [INFO] Alertes email non configurees — ignorees.
 2026-08-06 12:55:52,243 [INFO] Collecte et analyse terminees avec succes.
+2026-08-06 23:58:52,151 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-08-06 23:58:52,154 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-08-06 23:58:52,154 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-08-06 23:58:52,336 [INFO] ✅ 5 tokens récupérés avec succès
+2026-08-06 23:58:52,341 [INFO] 💾 5 prix sauvegardés à 2026-08-06T23:58:52.337662+00:00
+2026-08-06 23:58:52,345 [INFO] 5 tokens en base de donnees.
+2026-08-06 23:58:52,345 [INFO] Lancement de l analyse IA...
+2026-08-06 23:58:52,348 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-08-06 23:58:52,354 [INFO] 0.50% sur BINANCECOIN < 3.0% -> HOLD
+2026-08-06 23:58:52,356 [INFO] 0.50% sur BITCOIN < 3.0% -> HOLD
+2026-08-06 23:58:52,358 [INFO] 0.20% sur ETHEREUM < 3.0% -> HOLD
+2026-08-06 23:58:52,359 [INFO] 2.50% sur RIPPLE < 3.0% -> HOLD
+2026-08-06 23:58:52,361 [INFO] 1.90% sur SOLANA < 3.0% -> HOLD
+2026-08-06 23:58:52,363 [INFO] 📊 Signal sauvegardé : binancecoin → HOLD (confiance: 50%)
+2026-08-06 23:58:52,364 [INFO] 📊 Signal sauvegardé : bitcoin → HOLD (confiance: 50%)
+2026-08-06 23:58:52,366 [INFO] 📊 Signal sauvegardé : ethereum → HOLD (confiance: 50%)
+2026-08-06 23:58:52,367 [INFO] 📊 Signal sauvegardé : ripple → HOLD (confiance: 50%)
+2026-08-06 23:58:52,368 [INFO] 📊 Signal sauvegardé : solana → HOLD (confiance: 50%)
+2026-08-06 23:58:52,368 [INFO] Analyse terminee : 5 signaux, 0 appel(s) Gemini.
+2026-08-06 23:58:52,609 [INFO] Alertes email non configurees — ignorees.
+2026-08-06 23:58:52,609 [INFO] Collecte et analyse terminees avec succes.
