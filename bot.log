@@ -56989,3 +56989,39 @@
 2026-08-22 01:12:44,973 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
 2026-08-22 01:12:45,149 [INFO] Alertes email non configurees — ignorees.
 2026-08-22 01:12:45,151 [INFO] Collecte et analyse terminees avec succes.
+2026-08-22 02:53:41,183 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-08-22 02:53:41,185 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-08-22 02:53:41,185 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-08-22 02:53:41,359 [INFO] ✅ 5 tokens récupérés avec succès
+2026-08-22 02:53:41,378 [INFO] 💾 5 prix sauvegardés à 2026-08-22T02:53:41.360689+00:00
+2026-08-22 02:53:41,378 [INFO] 🚨 ALERTE : BTC a bougé de 5.70% en 24h → candidat pour analyse IA
+2026-08-22 02:53:41,378 [INFO] 🚨 ALERTE : ETH a bougé de 7.70% en 24h → candidat pour analyse IA
+2026-08-22 02:53:41,378 [INFO] 🚨 ALERTE : XRP a bougé de 16.70% en 24h → candidat pour analyse IA
+2026-08-22 02:53:41,379 [INFO] 🚨 ALERTE : BNB a bougé de 5.00% en 24h → candidat pour analyse IA
+2026-08-22 02:53:41,379 [INFO] 🚨 ALERTE : SOL a bougé de 6.40% en 24h → candidat pour analyse IA
+2026-08-22 02:53:41,382 [INFO] 5 tokens en base de donnees.
+2026-08-22 02:53:41,382 [INFO] Lancement de l analyse IA...
+2026-08-22 02:53:41,386 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-08-22 02:53:41,394 [INFO] 5.00% sur BINANCECOIN -> analyse (RSI: 80.6 | Tendance: haussiere forte)
+2026-08-22 02:53:41,397 [INFO] 5.70% sur BITCOIN -> analyse (RSI: 60.4 | Tendance: haussiere forte)
+2026-08-22 02:53:41,400 [INFO] 7.70% sur ETHEREUM -> analyse (RSI: 81.2 | Tendance: haussiere forte)
+2026-08-22 02:53:41,403 [INFO] 16.70% sur RIPPLE -> analyse (RSI: 80.0 | Tendance: haussiere forte)
+2026-08-22 02:53:41,405 [INFO] 6.40% sur SOLANA -> analyse (RSI: 79.2 | Tendance: haussiere forte)
+2026-08-22 02:53:41,944 [INFO] Appel Gemini unique pour 5 tokens...
+2026-08-22 02:53:41,957 [INFO] AFC is enabled with max remote calls: 10.
+2026-08-22 02:53:41,957 [WARNING] Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+2026-08-22 02:53:43,592 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-08-22 02:53:43,594 [INFO] Contexte marche : Le marché des cryptomonnaies montre une forte tendance haussière généralisée, avec la plupart des actifs affichant des gains significatifs sur 24 heures et des indicateurs de momentum positifs, bien que plusieurs soient en zone de surachat.
+2026-08-22 02:53:43,594 [INFO] Signal BINANCECOIN -> SELL (70%) | Le RSI est en zone de surachat (80.6) et le prix est supérieur aux moyennes mobiles, suggérant une possible correction à court terme.
+2026-08-22 02:53:43,594 [INFO] Signal BITCOIN -> HOLD (60%) | Le Bitcoin présente une tendance haussière forte avec un RSI neutre (60.4), indiquant une force continue mais sans surchauffe immédiate, justifiant une position d'attente.
+2026-08-22 02:53:43,594 [INFO] Signal ETHEREUM -> SELL (75%) | Avec un RSI très élevé (81.2) et une forte hausse récente, Ethereum est en surachat et pourrait connaître une phase de consolidation ou de correction.
+2026-08-22 02:53:43,594 [INFO] Signal RIPPLE -> SELL (80%) | Ripple affiche la plus forte hausse et un RSI en surachat prononcé (80.0), ce qui le rend particulièrement susceptible à une prise de profit et à une baisse.
+2026-08-22 02:53:43,594 [INFO] Signal SOLANA -> SELL (70%) | Le RSI de Solana est en zone de surachat (79.2) et le prix est bien au-dessus de ses moyennes mobiles, indiquant une possible opportunité de vente à court terme.
+2026-08-22 02:53:43,608 [INFO] 📊 Signal sauvegardé : binancecoin → SELL (confiance: 70%)
+2026-08-22 02:53:43,609 [INFO] 📊 Signal sauvegardé : bitcoin → HOLD (confiance: 60%)
+2026-08-22 02:53:43,610 [INFO] 📊 Signal sauvegardé : ethereum → SELL (confiance: 75%)
+2026-08-22 02:53:43,611 [INFO] 📊 Signal sauvegardé : ripple → SELL (confiance: 80%)
+2026-08-22 02:53:43,612 [INFO] 📊 Signal sauvegardé : solana → SELL (confiance: 70%)
+2026-08-22 02:53:43,612 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
+2026-08-22 02:53:43,770 [INFO] Alertes email non configurees — ignorees.
+2026-08-22 02:53:43,772 [INFO] Collecte et analyse terminees avec succes.
