@@ -59116,3 +59116,24 @@
 2026-08-25 14:44:09,871 [ERROR] ❌ Erreur HTTP 503 Server Error: Service Unavailable for url: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Cbinancecoin%2Cripple&order=market_cap_desc&per_page=5&page=1&sparkline=False&price_change_percentage=24h (tentative 3)
 2026-08-25 14:44:09,871 [CRITICAL] 🚨 Impossible de récupérer les données après 3 tentatives.
 2026-08-25 14:44:09,872 [ERROR] Arrêt : aucune donnée récupérée.
+2026-08-25 15:41:13,806 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-08-25 15:41:13,809 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-08-25 15:41:13,809 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-08-25 15:41:14,036 [INFO] ✅ 5 tokens récupérés avec succès
+2026-08-25 15:41:14,041 [INFO] 💾 5 prix sauvegardés à 2026-08-25T15:41:14.037821+00:00
+2026-08-25 15:41:14,046 [INFO] 5 tokens en base de donnees.
+2026-08-25 15:41:14,046 [INFO] Lancement de l analyse IA...
+2026-08-25 15:41:14,049 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-08-25 15:41:14,056 [INFO] 1.63% sur BINANCECOIN < 3.0% -> HOLD
+2026-08-25 15:41:14,059 [INFO] 0.14% sur BITCOIN < 3.0% -> HOLD
+2026-08-25 15:41:14,061 [INFO] 1.18% sur ETHEREUM < 3.0% -> HOLD
+2026-08-25 15:41:14,064 [INFO] 2.14% sur RIPPLE < 3.0% -> HOLD
+2026-08-25 15:41:14,066 [INFO] 1.47% sur SOLANA < 3.0% -> HOLD
+2026-08-25 15:41:14,068 [INFO] 📊 Signal sauvegardé : binancecoin → HOLD (confiance: 50%)
+2026-08-25 15:41:14,069 [INFO] 📊 Signal sauvegardé : bitcoin → HOLD (confiance: 50%)
+2026-08-25 15:41:14,070 [INFO] 📊 Signal sauvegardé : ethereum → HOLD (confiance: 50%)
+2026-08-25 15:41:14,072 [INFO] 📊 Signal sauvegardé : ripple → HOLD (confiance: 50%)
+2026-08-25 15:41:14,073 [INFO] 📊 Signal sauvegardé : solana → HOLD (confiance: 50%)
+2026-08-25 15:41:14,073 [INFO] Analyse terminee : 5 signaux, 0 appel(s) Gemini.
+2026-08-25 15:41:14,216 [INFO] Alertes email non configurees — ignorees.
+2026-08-25 15:41:14,216 [INFO] Collecte et analyse terminees avec succes.
