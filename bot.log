@@ -59829,3 +59829,33 @@
 2026-08-27 16:08:10,388 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
 2026-08-27 16:08:10,478 [INFO] Alertes email non configurees — ignorees.
 2026-08-27 16:08:10,480 [INFO] Collecte et analyse terminees avec succes.
+2026-08-28 01:17:26,670 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-08-28 01:17:26,674 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-08-28 01:17:26,674 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-08-28 01:17:26,851 [INFO] ✅ 5 tokens récupérés avec succès
+2026-08-28 01:17:26,856 [INFO] 💾 5 prix sauvegardés à 2026-08-28T01:17:26.853103+00:00
+2026-08-28 01:17:26,857 [INFO] 🚨 ALERTE : XRP a bougé de 3.86% en 24h → candidat pour analyse IA
+2026-08-28 01:17:26,857 [INFO] 🚨 ALERTE : SOL a bougé de 8.20% en 24h → candidat pour analyse IA
+2026-08-28 01:17:26,862 [INFO] 5 tokens en base de donnees.
+2026-08-28 01:17:26,862 [INFO] Lancement de l analyse IA...
+2026-08-28 01:17:26,865 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-08-28 01:17:26,872 [INFO] 1.91% sur BINANCECOIN < 3.0% -> HOLD
+2026-08-28 01:17:26,875 [INFO] 2.68% sur BITCOIN < 3.0% -> HOLD
+2026-08-28 01:17:26,877 [INFO] 1.31% sur ETHEREUM < 3.0% -> HOLD
+2026-08-28 01:17:26,879 [INFO] 3.86% sur RIPPLE -> analyse (RSI: 52.6 | Tendance: baissiere)
+2026-08-28 01:17:26,882 [INFO] 8.20% sur SOLANA -> analyse (RSI: 86.4 | Tendance: haussiere forte)
+2026-08-28 01:17:27,348 [INFO] Appel Gemini unique pour 2 tokens...
+2026-08-28 01:17:27,366 [INFO] AFC is enabled with max remote calls: 10.
+2026-08-28 01:17:27,366 [WARNING] Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+2026-08-28 01:17:28,286 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-08-28 01:17:28,288 [INFO] Contexte marche : Le marché montre une divergence notable, avec Solana en forte tendance haussière et surachetée, tandis que Ripple présente une tendance baissière des moyennes mobiles mais une reprise récente.
+2026-08-28 01:17:28,288 [INFO] Signal RIPPLE -> HOLD (50%) | Bien que le prix ait augmenté récemment, la tendance des moyennes mobiles reste baissière, suggérant une prudence avant une confirmation haussière.
+2026-08-28 01:17:28,288 [INFO] Signal SOLANA -> SELL (80%) | Le RSI est en zone de surachat extrême (86.4) et le prix est bien au-dessus des moyennes mobiles, indiquant un risque de correction à court terme.
+2026-08-28 01:17:28,290 [INFO] 📊 Signal sauvegardé : ripple → HOLD (confiance: 50%)
+2026-08-28 01:17:28,291 [INFO] 📊 Signal sauvegardé : solana → SELL (confiance: 80%)
+2026-08-28 01:17:28,292 [INFO] 📊 Signal sauvegardé : binancecoin → HOLD (confiance: 50%)
+2026-08-28 01:17:28,293 [INFO] 📊 Signal sauvegardé : bitcoin → HOLD (confiance: 50%)
+2026-08-28 01:17:28,294 [INFO] 📊 Signal sauvegardé : ethereum → HOLD (confiance: 50%)
+2026-08-28 01:17:28,294 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
+2026-08-28 01:17:28,460 [INFO] Alertes email non configurees — ignorees.
+2026-08-28 01:17:28,462 [INFO] Collecte et analyse terminees avec succes.
