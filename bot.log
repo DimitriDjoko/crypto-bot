@@ -61154,3 +61154,33 @@
 2026-09-06 00:37:01,931 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
 2026-09-06 00:37:02,052 [INFO] Alertes email non configurees — ignorees.
 2026-09-06 00:37:02,053 [INFO] Collecte et analyse terminees avec succes.
+2026-09-06 05:33:12,245 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-09-06 05:33:12,245 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-09-06 05:33:12,245 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-09-06 05:33:12,446 [INFO] ✅ 5 tokens récupérés avec succès
+2026-09-06 05:33:12,452 [INFO] 💾 5 prix sauvegardés à 2026-09-06T05:33:12.447906+00:00
+2026-09-06 05:33:12,452 [INFO] 🚨 ALERTE : BNB a bougé de 5.40% en 24h → candidat pour analyse IA
+2026-09-06 05:33:12,452 [INFO] 🚨 ALERTE : SOL a bougé de 4.09% en 24h → candidat pour analyse IA
+2026-09-06 05:33:12,461 [INFO] 5 tokens en base de donnees.
+2026-09-06 05:33:12,461 [INFO] Lancement de l analyse IA...
+2026-09-06 05:33:12,465 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-09-06 05:33:12,475 [INFO] 5.40% sur BINANCECOIN -> analyse (RSI: 71.0 | Tendance: haussiere)
+2026-09-06 05:33:12,478 [INFO] 0.32% sur BITCOIN < 3.0% -> HOLD
+2026-09-06 05:33:12,481 [INFO] 2.26% sur ETHEREUM < 3.0% -> HOLD
+2026-09-06 05:33:12,483 [INFO] 1.53% sur RIPPLE < 3.0% -> HOLD
+2026-09-06 05:33:12,485 [INFO] 4.09% sur SOLANA -> analyse (RSI: 61.4 | Tendance: haussiere forte)
+2026-09-06 05:33:13,033 [INFO] Appel Gemini unique pour 2 tokens...
+2026-09-06 05:33:13,053 [INFO] AFC is enabled with max remote calls: 10.
+2026-09-06 05:33:13,053 [WARNING] Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+2026-09-06 05:33:17,080 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-09-06 05:33:17,081 [INFO] Contexte marche : Le marché des cryptomonnaies montre une dynamique haussière généralisée, avec des volumes de transactions élevés sur les deux actifs analysés.
+2026-09-06 05:33:17,081 [INFO] Signal BINANCECOIN -> HOLD (60%) | Le RSI indique une zone de surachat, suggérant une possible correction, malgré une tendance haussière confirmée par les moyennes mobiles.
+2026-09-06 05:33:17,081 [INFO] Signal SOLANA -> BUY (70%) | La tendance haussière est forte, le prix est au-dessus des moyennes mobiles, et le RSI est dans une zone neutre, laissant de la marge pour une continuation de la hausse.
+2026-09-06 05:33:17,086 [INFO] 📊 Signal sauvegardé : binancecoin → HOLD (confiance: 60%)
+2026-09-06 05:33:17,089 [INFO] 📊 Signal sauvegardé : solana → BUY (confiance: 70%)
+2026-09-06 05:33:17,091 [INFO] 📊 Signal sauvegardé : bitcoin → HOLD (confiance: 50%)
+2026-09-06 05:33:17,092 [INFO] 📊 Signal sauvegardé : ethereum → HOLD (confiance: 50%)
+2026-09-06 05:33:17,093 [INFO] 📊 Signal sauvegardé : ripple → HOLD (confiance: 50%)
+2026-09-06 05:33:17,093 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
+2026-09-06 05:33:17,194 [INFO] Alertes email non configurees — ignorees.
+2026-09-06 05:33:17,196 [INFO] Collecte et analyse terminees avec succes.
