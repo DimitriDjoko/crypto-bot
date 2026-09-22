@@ -63669,3 +63669,31 @@
 2026-09-22 09:04:49,660 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
 2026-09-22 09:04:49,895 [INFO] Alertes email non configurees — ignorees.
 2026-09-22 09:04:49,897 [INFO] Collecte et analyse terminees avec succes.
+2026-09-22 14:23:11,228 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-09-22 14:23:11,228 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-09-22 14:23:11,228 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-09-22 14:23:11,770 [INFO] ✅ 5 tokens récupérés avec succès
+2026-09-22 14:23:11,792 [INFO] 💾 5 prix sauvegardés à 2026-09-22T14:23:11.771101+00:00
+2026-09-22 14:23:11,792 [INFO] 🚨 ALERTE : XRP a bougé de 5.39% en 24h → candidat pour analyse IA
+2026-09-22 14:23:11,797 [INFO] 5 tokens en base de donnees.
+2026-09-22 14:23:11,797 [INFO] Lancement de l analyse IA...
+2026-09-22 14:23:11,799 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-09-22 14:23:11,805 [INFO] 1.02% sur BINANCECOIN < 3.0% -> HOLD
+2026-09-22 14:23:11,808 [INFO] 0.81% sur BITCOIN < 3.0% -> HOLD
+2026-09-22 14:23:11,810 [INFO] 0.68% sur ETHEREUM < 3.0% -> HOLD
+2026-09-22 14:23:11,812 [INFO] 5.39% sur RIPPLE -> analyse (RSI: 82.6 | Tendance: haussiere forte)
+2026-09-22 14:23:11,814 [INFO] 0.70% sur SOLANA < 3.0% -> HOLD
+2026-09-22 14:23:12,234 [INFO] Appel Gemini unique pour 1 tokens...
+2026-09-22 14:23:12,250 [INFO] AFC is enabled with max remote calls: 10.
+2026-09-22 14:23:12,250 [WARNING] Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+2026-09-22 14:23:12,986 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-09-22 14:23:12,988 [INFO] Contexte marche : Le marché montre une dynamique haussière généralisée, mais le RSI de Ripple indique une surchauffe potentielle.
+2026-09-22 14:23:12,988 [INFO] Signal RIPPLE -> HOLD (70%) | Le prix est en forte tendance haussière avec un RSI en zone de surachat, suggérant une pause ou une correction avant une nouvelle impulsion.
+2026-09-22 14:23:12,992 [INFO] 📊 Signal sauvegardé : ripple → HOLD (confiance: 70%)
+2026-09-22 14:23:12,993 [INFO] 📊 Signal sauvegardé : binancecoin → HOLD (confiance: 50%)
+2026-09-22 14:23:12,994 [INFO] 📊 Signal sauvegardé : bitcoin → HOLD (confiance: 50%)
+2026-09-22 14:23:12,995 [INFO] 📊 Signal sauvegardé : ethereum → HOLD (confiance: 50%)
+2026-09-22 14:23:12,997 [INFO] 📊 Signal sauvegardé : solana → HOLD (confiance: 50%)
+2026-09-22 14:23:12,997 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
+2026-09-22 14:23:13,165 [INFO] Alertes email non configurees — ignorees.
+2026-09-22 14:23:13,167 [INFO] Collecte et analyse terminees avec succes.
