@@ -65842,3 +65842,32 @@
 2026-10-12 20:07:48,207 [INFO] Analyse terminee : 5 signaux, 0 appel(s) Gemini.
 2026-10-12 20:07:48,323 [INFO] Alertes email non configurees — ignorees.
 2026-10-12 20:07:48,323 [INFO] Collecte et analyse terminees avec succes.
+2026-10-13 02:26:01,889 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-10-13 02:26:01,890 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-10-13 02:26:01,890 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-10-13 02:26:02,194 [INFO] ✅ 5 tokens récupérés avec succès
+2026-10-13 02:26:02,199 [INFO] 💾 5 prix sauvegardés à 2026-10-13T02:26:02.195460+00:00
+2026-10-13 02:26:02,199 [INFO] 🚨 ALERTE : XRP a bougé de -3.23% en 24h → candidat pour analyse IA
+2026-10-13 02:26:02,199 [INFO] 🚨 ALERTE : SOL a bougé de -4.87% en 24h → candidat pour analyse IA
+2026-10-13 02:26:02,205 [INFO] 5 tokens en base de donnees.
+2026-10-13 02:26:02,205 [INFO] Lancement de l analyse IA...
+2026-10-13 02:26:02,208 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-10-13 02:26:02,216 [INFO] 1.86% sur BINANCECOIN < 3.0% -> HOLD
+2026-10-13 02:26:02,218 [INFO] 1.21% sur BITCOIN < 3.0% -> HOLD
+2026-10-13 02:26:02,221 [INFO] 2.73% sur ETHEREUM < 3.0% -> HOLD
+2026-10-13 02:26:02,224 [INFO] 3.23% sur RIPPLE -> analyse (RSI: 33.3 | Tendance: baissiere forte)
+2026-10-13 02:26:02,226 [INFO] 4.87% sur SOLANA -> analyse (RSI: 34.9 | Tendance: baissiere forte)
+2026-10-13 02:26:02,827 [INFO] Appel Gemini unique pour 2 tokens...
+2026-10-13 02:26:02,842 [INFO] AFC is enabled with max remote calls: 10.
+2026-10-13 02:26:03,817 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-10-13 02:26:03,828 [INFO] Contexte marche : Le marché des cryptomonnaies montre une faiblesse généralisée avec des baisses notables sur les deux actifs analysés, reflétant une tendance baissière forte.
+2026-10-13 02:26:03,828 [INFO] Signal RIPPLE -> HOLD (60%) | Le RSI est neutre et le prix est inférieur aux moyennes mobiles, indiquant une tendance baissière forte sans signal clair de survente ou de surachat.
+2026-10-13 02:26:03,828 [INFO] Signal SOLANA -> HOLD (60%) | Le RSI est neutre et le prix est inférieur aux moyennes mobiles, confirmant une tendance baissière forte sans indication immédiate de retournement.
+2026-10-13 02:26:03,830 [INFO] 📊 Signal sauvegardé : ripple → HOLD (confiance: 60%)
+2026-10-13 02:26:03,831 [INFO] 📊 Signal sauvegardé : solana → HOLD (confiance: 60%)
+2026-10-13 02:26:03,832 [INFO] 📊 Signal sauvegardé : binancecoin → HOLD (confiance: 50%)
+2026-10-13 02:26:03,833 [INFO] 📊 Signal sauvegardé : bitcoin → HOLD (confiance: 50%)
+2026-10-13 02:26:03,834 [INFO] 📊 Signal sauvegardé : ethereum → HOLD (confiance: 50%)
+2026-10-13 02:26:03,834 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
+2026-10-13 02:26:04,003 [INFO] Alertes email non configurees — ignorees.
+2026-10-13 02:26:04,005 [INFO] Collecte et analyse terminees avec succes.
