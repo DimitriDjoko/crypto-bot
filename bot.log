@@ -66061,3 +66061,32 @@
 2026-10-14 22:03:57,432 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
 2026-10-14 22:03:57,569 [INFO] Alertes email non configurees — ignorees.
 2026-10-14 22:03:57,571 [INFO] Collecte et analyse terminees avec succes.
+2026-10-15 01:14:03,135 [INFO] 🤖 Démarrage du bot de collecte de prix...
+2026-10-15 01:14:03,136 [INFO] ✅ Base de données initialisée : crypto_data.db
+2026-10-15 01:14:03,136 [INFO] 🌐 Requête CoinGecko (tentative 1/3)...
+2026-10-15 01:14:03,459 [INFO] ✅ 5 tokens récupérés avec succès
+2026-10-15 01:14:03,464 [INFO] 💾 5 prix sauvegardés à 2026-10-15T01:14:03.460983+00:00
+2026-10-15 01:14:03,464 [INFO] 🚨 ALERTE : ETH a bougé de -3.49% en 24h → candidat pour analyse IA
+2026-10-15 01:14:03,464 [INFO] 🚨 ALERTE : XRP a bougé de -3.13% en 24h → candidat pour analyse IA
+2026-10-15 01:14:03,473 [INFO] 5 tokens en base de donnees.
+2026-10-15 01:14:03,473 [INFO] Lancement de l analyse IA...
+2026-10-15 01:14:03,476 [INFO] Analyse IA groupee avec Gemini gemini-2.5-flash-lite...
+2026-10-15 01:14:03,488 [INFO] 1.72% sur BINANCECOIN < 3.0% -> HOLD
+2026-10-15 01:14:03,492 [INFO] 1.95% sur BITCOIN < 3.0% -> HOLD
+2026-10-15 01:14:03,496 [INFO] 3.49% sur ETHEREUM -> analyse (RSI: 26.8 | Tendance: baissiere forte)
+2026-10-15 01:14:03,499 [INFO] 3.13% sur RIPPLE -> analyse (RSI: 10.0 | Tendance: baissiere forte)
+2026-10-15 01:14:03,502 [INFO] 2.74% sur SOLANA < 3.0% -> HOLD
+2026-10-15 01:14:03,869 [INFO] Appel Gemini unique pour 2 tokens...
+2026-10-15 01:14:03,880 [INFO] AFC is enabled with max remote calls: 10.
+2026-10-15 01:14:08,381 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-10-15 01:14:08,391 [INFO] Contexte marche : Le marché des cryptomonnaies montre une tendance baissière généralisée, avec une pression vendeuse significative sur les principaux actifs comme Ethereum et Ripple.
+2026-10-15 01:14:08,391 [INFO] Signal ETHEREUM -> BUY (70%) | L'ETH est en zone de survente extrême avec un RSI à 26.8, suggérant un potentiel rebond après une forte baisse.
+2026-10-15 01:14:08,391 [INFO] Signal RIPPLE -> BUY (80%) | Le XRP présente un RSI extrêmement bas à 10.0, indiquant une survente majeure et une opportunité d'achat spéculative.
+2026-10-15 01:14:08,393 [INFO] 📊 Signal sauvegardé : ethereum → BUY (confiance: 70%)
+2026-10-15 01:14:08,394 [INFO] 📊 Signal sauvegardé : ripple → BUY (confiance: 80%)
+2026-10-15 01:14:08,395 [INFO] 📊 Signal sauvegardé : binancecoin → HOLD (confiance: 50%)
+2026-10-15 01:14:08,396 [INFO] 📊 Signal sauvegardé : bitcoin → HOLD (confiance: 50%)
+2026-10-15 01:14:08,397 [INFO] 📊 Signal sauvegardé : solana → HOLD (confiance: 50%)
+2026-10-15 01:14:08,397 [INFO] Analyse terminee : 5 signaux, 1 appel(s) Gemini.
+2026-10-15 01:14:08,470 [INFO] Alertes email non configurees — ignorees.
+2026-10-15 01:14:08,472 [INFO] Collecte et analyse terminees avec succes.
